@@ -1,0 +1,2621 @@
+Title: New Technology Batteries Guide: NIJ Guide 200-98.
+Series: NIJ Guide
+Author: William J. Ingram
+Published: October 1998
+Subject: Technology in law enforcement
+58 pages
+120,000 bytes
+
+------------------------------- 
+
+Some figures, charts, forms, equations, and tables are not included in this
+ASCII plain-text file. To view this document in its entirety, download the
+Adobe Acrobat graphic file available from this Web site or order a print
+copy from NCJRS at 800-851-3420.
+
+-------------------------------
+
+U.S. Department of Justice
+Office of Justice Programs
+National Institute of Justice
+Jeremy Travis
+Director
+
+-------------------------------
+
+New Technology Batteries Guide
+
+NIJ Guide 200-98
+
+William J. Ingram
+Institute for Telecommunication Sciences
+Boulder, CO 80303
+
+Prepared for:
+National Institute of Justice
+Office of Science and Technology
+U.S. Department of Justice
+Washington, DC 20531
+
+October 1998
+
+-------------------------------
+
+The Technical effort to develop this Guide was conducted under
+Interagency Agreement 94-IJ-R-004 Project No. 97-027-CTT.
+
+This Guide was prepared by the Office of Law Enforcement Standards
+(OLES) of the National Institute of Standards and Technology (NIST)
+under the direction of A. George Lieberman, Program Manager for
+Communications Systems, and Kathleen M. Higgins, Director of OLES. 
+The work resulting in this guide was sponsored by the National Institute of
+Justice, David G. Boyd, Director, Office of Science and Technology.
+
+------------------------------
+
+FOREWORD
+
+The Office of Law Enforcement Standards (OLES) of the National
+Institute of Standards and Technology furnishes technical support to the
+National Institute of Justice program to strengthen law enforcement and
+criminal justice in the United States. OLES's function is to conduct
+research that will assist law enforcement and criminal justice agencies in
+the selection and procurement of quality equipment.
+
+OLES is: (1) subjecting existing equipment to laboratory testing and
+evaluation, and (2) conducting research leading to the development of
+several series of documents, including national standards, user guides, and
+technical reports.
+
+This document covers research conducted by OLES under the sponsorship
+of the National Institute of Justice. Additional reports as well as other
+documents are being issued under the OLES program in the areas of
+protective clothing and equipment, communications systems, emergency
+equipment, investigative aids, security systems, vehicles, weapons, and
+analytical techniques and standard reference materials used by the forensic
+community.
+
+Technical comments and suggestions concerning this report are invited
+from all interested parties. They may be addressed to the Director, Office
+of Law Enforcement Standards, National Institute of Standards and
+Technology, Gaithersburg, MD 20899.
+
+David G. Boyd, Director
+Office of Science and Technology 
+National Institute of Justice
+
+-------------------------------
+
+BACKGROUND
+
+The Office of Law Enforcement Standards (OLES) was established by the
+National Institute of Justice (NIJ) to provide focus on two major
+objectives: (1) to find existing equipment which can be purchased today,
+and (2) to develop new law-enforcement equipment which can be made
+available as soon as possible. A part of OLES's mission is to become
+thoroughly familiar with existing equipment, to evaluate its performance
+by means of objective laboratory tests, to develop and improve these
+methods of test, to develop performance standards for selected equipment
+items, and to prepare guidelines for the selection and use of this
+equipment. All of these activities are directed toward providing law
+enforcement agencies with assistance in making good equipment
+selections and acquisitions in accordance with their own requirements.
+
+As the OLES program has matured, there has been a gradual shift in the
+objectives of the OLES projects. The initial emphasis on the development
+of standards has decreased, and the emphasis on the development of
+guidelines has increased. For the significance of this shift in emphasis to
+be appreciated, the precise definitions of the words "standard" and
+"guideline" as used in this context must be clearly understood.
+
+A "standard" for a particular item of equipment is understood to be a
+formal document, in a conventional format, that details the performance
+that the equipment is required to give, and describes test methods by
+which its actual performance can be measured. These requirements are
+technical, and are stated in terms directly related to the equipment's use.
+The basic purposes of a standard are (1) to be a reference in procurement
+documents created by purchasing officers who wish to specify equipment
+of the "standard" quality, and (2) to identify objectively equipment of
+acceptable performance.
+
+Note that a standard is not intended to inform and guide the reader; that is
+the function of a "guideline." Guidelines are written in non-technical
+language and are addressed to the potential user of the equipment. They
+include a general discussion of the equipment, its important performance
+attributes, the various models currently on the market, objective test data
+where available, and any other information that might help the reader
+make a rational selection among the various options or alternatives
+available to him or her.
+
+This battery guide is provided to inform the reader of the latest technology
+related to battery composition, battery usage, and battery charging
+techniques.
+
+Kathleen Higgins
+National Institute of Standards and Technology
+March 27, 1997
+
+-------------------------------
+
+CONTENTS
+
+FOREWORD
+
+BACKGROUND
+
+1. FUNDAMENTALS OF BATTERY TECHNOLOGY
+1.1 WHAT IS A BATTERY?
+1.2 How Does a Battery Work?
+1.3 Galvanic Cells vs. Batteries
+1.4 Primary Battery
+1.5 Secondary Battery
+1.6 Battery Labels
+
+2. AVAILABLE BATTERY TYPES
+2.1 General
+2.1.1 Acid vs. Alkaline
+2.1.2 Wet vs. Dry
+2.1.3 Categories
+2.2 Vehicular Batteries
+2.2.1 Lead-Acid
+2.2.2 Sealed vs. Flooded
+2.2.3 Deep-Cycle Batteries
+2.2.4 Battery Categories for Vehicular Batteries
+2.3 "Household" Batteries
+2.3.1 Zinc-carbon (Z-C)
+2.3.2 Zinc-Manganese Dioxide Alkaline Cells ("Alkaline Batteries")
+2.3.3 Rechargeable Alkaline Batteries
+2.3.4 Nickel-Cadmium (Ni-Cd)
+2.3.5 Nickel-Metal Hydride (Ni-MH)
+2.3.6 Nickel-Iron (Ni-I)
+2.3.7 Nickel-Zinc (Ni-Z)
+2.3.8 Lithium and Lithium Ion
+2.4 Specialty Batteries ("Button" and Miniature Batteries)
+2.4.1 Metal-Air Cells
+2.4.2 Silver Oxide
+2.4.3 Mercury Oxide  
+2.5 Other Batteries
+2.5.1 Nickel-Hydrogen (Ni-H)
+2.5.2 Thermal Batteries
+2.5.3 Super Capacitor
+2.5.4 The Potato Battery
+2.5.5 The Sea Battery
+2.5.6 Other Developments 
+
+3. PERFORMANCE, ECONOMICS AND TRADEOFFS
+3.1 Energy Densities
+3.2 Energy per Mass
+3.3 Energy Per Volume
+3.4 Memory Effects
+3.5 Voltage Profiles
+3.6 Self-Discharge Rates
+3.7 Operating Temperatures
+3.8 Cycle Life
+3.9 Capacity Testing
+3.10 Battery Technology Comparison
+
+4. SELECTING THE RIGHT BATTERY FOR THE APPLICATION
+4.1 Battery Properties
+4.2 Environmental Concerns
+4.3 Standardization
+4.4 Testing Capacities
+4.5 Mobile Radios
+4.6 Cellular Phones and PCS Phones
+4.7 Laptop Computers
+4.8 Camcorders
+4.9 Summary
+
+5. BATTERY HANDLING AND MAINTENANCE
+5.1 Battery Dangers
+5.2 Extending Battery Life
+
+6. BATTERY CHARGERS AND ADAPTERS
+6.1 Battery Chargers
+6.2 Charge Rates
+6.3 Charging Techniques
+6.4 Charging Lead-Acid Batteries
+6.5 Charging Ni-Cd Batteries
+6.6 Timed-Charge Charging
+6.7 Pulsed Charge-Discharge Chargers
+6.8 Charging Button Batteries
+6.9 Internal Chargers
+6.10 Battery Testers
+6.11 "Smart" Batteries
+6.12 End of Life
+6.13 Battery Adapters
+
+7. PRODUCTS AND SUPPLIERS
+7.1 Battery Manufacturers
+7.1.1 Battery Engineering
+7.1.2 Duracell
+7.1.3 Eveready
+7.1.4 Rayovac
+
+8. A GLOSSARY OF BATTERY TERMS
+
+9. BIBLIOGRAPHY
+
+LIST OF FIGURES 
+(Figures are not available in this ASCII file)
+Figure 1. Conceptual diagram of a galvanic cell.
+Figure 2. Energy densities, W@h/kg, of various battery types (adapted
+from NAVSO P-3676).
+Figure 3. Energy densities, W@h/L, of various battery types (adapted
+from NAVSO P-3676).
+Figure 4. Flat discharge curve vs. sloping discharge curve.
+Figure 5. Performance comparison of primary and secondary alkaline and
+Ni-Cd batteries (adapted from Design Note: Renewable Reusable Alkaline
+Batteries).
+
+LIST OF TABLES
+(Tables are not available in their original format; table 4 is not available in
+this ASCII file)
+Table 1. The Electromotive Series for Some Battery Components
+Table 2. Various Popular Household-Battery Sizes
+Table 3. Battery Technology Comparison (adapted from Design Note:
+Renewable Reusable Alkaline Batteries)
+Table 4. A Comparison of Several Popular Battery Types 
+Table 5. Recommended Battery Types for Various Usage Conditions
+Table 6. Typical Usage of Portable Telecommunications Equipment.
+Table 7. Charge Rate Descriptions
+Table 8. Some On-Line Information Available via the World Wide Web
+
+LIST OF EQUATIONS
+(Equations are not available in this ASCII file)
+Equation 1. The chemical reaction in a lead-acid battery.
+Equation 2. The chemical reaction in a Leclanch‚ cell.
+Equation 3. The chemical reaction in a nickel-cadmium battery.
+Equation 4. The chemical reaction in a lithium-manganese dioxide cell.
+
+-------------------------------
+
+1. FUNDAMENTALS OF BATTERY TECHNOLOGY
+
+1.1. What is a Battery?
+A battery, in concept, can be any device that stores energy for later use. A
+rock, pushed to the top of a hill, can be considered a kind of battery, since
+the energy used to push it up the hill (chemical energy, from muscles or
+combustion engines) is converted and stored as potential kinetic energy at
+the top of the hill. Later, that energy is released as kinetic and thermal
+energy when the rock rolls down the hill.
+
+Common use of the word, "battery," however, is limited to an
+electrochemical device that converts chemical energy into electricity, by
+use of a galvanic cell. A galvanic cell is a fairly simple device consisting
+of two electrodes (an anode and a cathode) and an electrolyte solution.
+Batteries consist of one or more galvanic cells. 
+
+1.2. How Does a Battery Work?
+Figure 1 shows a simple galvanic cell. Electrodes (two plates, each made
+from a different kind of metal or metallic compound) are placed in an
+electrolyte solution. External wires connect the electrodes to an electrical
+load (a light bulb in this case). The metal in the anode (the negative
+terminal) oxidizes (i.e., it "rusts"), releasing negatively charged electrons
+and positively charged metal ions. The electrons travel through the wire
+(and the electrical load) to the cathode (the positive terminal). The
+electrons combine with the material in the cathode. This combination
+process is called reduction, and it releases a negatively charged
+metal-oxide ion. At the interface with the electrolyte, this ion causes a
+water molecule to split into a hydrogen ion and a hydroxide ion. The
+positively charged hydrogen ion combines with the negatively charged
+metal-oxide ion and becomes inert. The negatively charged hydroxide ion
+flows through the electrolyte to the anode where it combines with the
+positively charged metal ion, forming a water molecule and a metal-oxide
+molecule.
+
+In effect, metal ions from the anode will "dissolve" into the electrolyte
+solution while hydrogen molecules from the electrolyte are deposited onto
+the cathode. When the anode is fully oxidized or the cathode is fully
+reduced, the chemical reaction will stop and the battery is considered to be
+discharged.
+
+Recharging a battery is usually a matter of externally applying a voltage
+across the plates to reverse the chemical process. Some chemical reactions,
+however, are difficult or impossible to reverse. Cells with irreversible
+reactions are commonly known as primary cells, while cells with
+reversible reactions are known as secondary cells. It is dangerous to
+attempt to recharge primary cells.
+
+The amount of voltage and current that a galvanic cell produces is directly
+related to the types of materials used in the electrodes and electrolyte. The
+length of time the cell can produce that voltage and current is related to the
+amount of active material in the cell and the cell's design. 
+
+Every metal or metal compound has an electromotive force, which is the
+propensity of the metal to gain or lose electrons in relation to another
+material. Compounds with a positive electromotive force will make good
+anodes and those with a negative force will make good cathodes. The
+larger the difference between the electromotive forces of the anode and
+cathode, the greater the amount of energy that can be produced by the cell.
+Table 1 shows the electromotive force of some common battery
+components.
+
+--------------------
+
+Table 1. The Electromotive Series for Some Battery Components 
+
+Anode Materials
+(Listed from worst [most positive] to best [most negative]) 
+1.  Gold; 2.  Platinum; 3.  Mercury; 4.  Palladium; 5.  Silver; 6.  Copper; 7. 
+Hydrogen; 8.  Lead; 9.  Tin; 10. Nickel; 11. Iron; 12. Chromium; 13. Zinc;
+14. Aluminum; 15. Magnesium; 16. Lithium
+
+Cathode Materials
+(Listed from best [most positive] to worst [most negative]) 
+1. Ferrate; 2. Iron Oxide; 3. Cuprous Oxide; 4. Iodate; 5. Cupric Oxide; 6.
+Mercuric Oxide; 7. Cobaltic Oxide; 8. Manganese Dioxide; 9. Lead
+Dioxide; 10. Silver Oxide; 11. Oxygen; 12. Nickel Oxyhydroxide; 13.
+Nickel Dioxide; 14. Silver Peroxide; 15. Permanganate; 16. Bromate
+
+------------------------------- 
+
+Over the years, battery specialists have experimented with many different
+combinations of material and have generally tried to balance the potential
+energy output of a battery with the costs of manufacturing the battery.
+Other factors, such as battery weight, shelf life, and environmental impact,
+also enter into a battery's design.
+
+1.3. Galvanic Cells vs. Batteries
+From earlier discussion, we know that a battery is one or more galvanic
+cells connected in series or in parallel.
+
+A battery composed of two 1.5 V galvanic cells connected in series, for
+example, will produce 3 V. A typical 9 V battery is simply six 1.5 V cells
+connected in series. Such a series battery, however, will produce a current
+that is the equivalent to just one of the galvanic cells. 
+
+A battery composed of two 1.5 V galvanic cells connected in parallel, on
+the other hand, will still produce a voltage of 1.5 V, but the current
+provided can be double the current that just one cell would create. Such a
+battery can provide current twice as long as a single cell.
+
+Many galvanic cells can be thus connected to create a battery with almost
+any current at any voltage level.
+
+1.4. Primary Battery
+A primary battery is a battery that is designed to be cycled (fully
+discharged) only once and then discarded. Although primary batteries are
+often made from the same base materials as secondary (rechargeable)
+batteries, the design and manufacturing processes are not the same. 
+Battery manufacturers recommend that primary batteries not be recharged.
+Although attempts at recharging a primary battery will occasionally
+succeed (usually with a diminished capacity), it is more likely that the
+battery will simply fail to hold any charge, will leak electrolyte onto the
+battery charger, or will overheat and cause a fire. It is unwise and
+dangerous to recharge a primary battery.
+
+1.5. Secondary Battery
+A secondary battery is commonly known as a rechargeable battery. It is
+usually designed to have a lifetime of between 100 and 1000 recharge
+cycles, depending on the composite materials. 
+
+Secondary batteries are, generally, more cost effective over time than
+primary batteries, since the battery can be recharged and reused. A single
+discharge cycle of a primary battery, however, will provide more current
+for a longer period of time than a single discharge cycle of an equivalent
+secondary battery.
+
+1.6. Battery Labels
+The American National Standards Institute (ANSI) Standard, ANSI
+C18.1M-1992, lists several battery features that must be listed on a
+battery's label. They are: 
+
+-- Manufacturer -- The name of the battery manufacturer.
+
+-- ANSI Number -- The ANSI/NEDA number of the battery.
+
+-- Date -- The month and year that the battery was manufactured or the
+month and year that the battery "expires" (i.e., is no longer guaranteed by
+the manufacturer). 
+
+-- Voltage -- The nominal battery voltage.
+
+-- Polarity -- The positive and negative terminals. The terminals must be
+clearly marked. 
+
+-- Warnings -- Other warnings and cautions related to battery usage and
+disposal. 
+
+------------------------------- 
+
+2. AVAILABLE BATTERY TYPES
+
+2.1. General
+
+2.1.1.  Acid vs. Alkaline
+Batteries are often classified by the type of electrolyte used in their
+construction. There are three common classifications: acid, mildly acid,
+and alkaline.
+
+Acid-based batteries often use sulphuric acid as the major component of
+the electrolyte. Automobile batteries are acid-based. The electrolyte used
+in mildly acidic batteries is far less corrosive than typical acid-based
+batteries and usually includes a variety of salts that produce the desired
+acidity level. Inexpensive household batteries are mildly acidic batteries. 
+
+Alkaline batteries typically use sodium hydroxide or potassium hydroxide
+as the main component of the electrolyte. Alkaline batteries are often used
+in applications where long-lasting, high-energy output is needed, such as
+cellular phones, portable CD players, radios, pagers, and flash cameras.
+
+2.1.2.  Wet vs. Dry
+"Wet" cells refer to galvanic cells where the electrolyte is liquid in form
+and is allowed to flow freely within the cell casing. Wet batteries are often
+sensitive to the orientation of the battery. For example, if a wet cell is
+oriented such that a gas pocket accumulates around one of the electrodes,
+the cell will not produce current. Most automobile batteries are wet cells.
+
+"Dry" cells are cells that use a solid or powdery electrolyte. These kind of
+electrolytes use the ambient moisture in the air to complete the chemical
+process. Cells with liquid electrolyte can be classified as "dry" if the
+electrolyte is immobilized by some mechanism, such as by gelling it or by
+holding it in place with an absorbent substance such as paper.
+
+In common usage, "dry cell" batteries will usually refer to zinc-carbon
+cells (Sec. 2.3.1) or zinc- alkaline-manganese dioxide cells (Sec. 2.3.2),
+where the electrolyte is often gelled or held in place by absorbent paper.
+
+Some cells are difficult to categorize. For example, one type of cell is
+designed to be stored for long periods without its electrolyte present. Just
+before power is needed from the cell, liquid electrolyte is added.
+
+2.1.3.  Categories
+Batteries can further be classified by their intended use. The following
+sections discuss four generic categories of batteries; "vehicular" batteries
+(Sec. 2.2), "household" batteries (Sec. 2.3), "specialty" batteries (Sec. 2.4),
+and "other" batteries (Sec. 2.5). Each section will focus on the general
+properties of that category of battery.
+
+Note that some battery types (acidic or alkaline, wet or dry) can fall into
+several different categories. For this guideline, battery types are placed
+into the category in which they are most likely to be found in commercial
+usage.
+
+2.2. Vehicular Batteries
+This section discusses battery types and configurations that are typically
+used in motor vehicles. This category can include batteries that drive
+electric motors directly or those that provide starting energy for
+combustion engines. This category will also include large, stationary
+batteries used as power sources for emergency building lighting,
+remote-site power, and computer back up.
+
+Vehicular batteries are usually available off-the-shelf in standard designs
+or can be custom built for specific applications.
+
+2.2.1.  Lead-Acid 
+Lead-acid batteries, developed in the late 1800s, were the first
+commercially practical batteries. Batteries of this type remain popular
+because they are relatively inexpensive to produce and sell. The most
+widely known uses of lead-acid batteries are as automobile batteries.
+Rechargeable lead-acid batteries have become the most widely used type
+of battery in the world--more than 20 times the use rate of its nearest
+rivals. In fact, battery manufacturing is the single largest use for lead in the
+world.[1]
+
+Equation 1 shows the chemical reaction in a lead-acid cell.
+
+Lead-acid batteries remain popular because they can produce high or low
+currents over a wide range of temperatures, they have good shelf life and
+life cycles, and they are relatively inexpensive to manufacture. Lead-acid
+batteries are usually rechargeable.
+
+Lead-acid batteries come in all manner of shapes and sizes, from
+household batteries to large batteries for use in submarines. The most
+noticeable shortcomings of lead-acid batteries are their relatively heavy
+weight and their falling voltage profile during discharge (Sec. 3.5). 
+
+2.2.2.  Sealed vs. Flooded
+In "flooded" batteries, the oxygen created at the positive electrode is
+released from the cell and vented into the atmosphere. Similarly, the
+hydrogen created at the negative electrode is also vented into the
+atmosphere. The overall result is a net loss of water (H2O) from the cell.
+This lost water needs to be periodically replaced. Flooded batteries must
+be vented to prevent excess pressure from the build up of these gases.
+Also, the room or enclosure housing the battery must be vented, since a
+concentrated hydrogen and oxygen atmosphere is explosive.
+
+In sealed batteries, however, the generated oxygen combines chemically
+with the lead and then the hydrogen at the negative electrode, and then
+again with reactive agents in the electrolyte, to recreate water. The net
+result is no significant loss of water from the cell. 
+
+2.2.3.  Deep-Cycle Batteries
+Deep-cycle batteries are built in configurations similar to those of regular
+batteries, except that they are specifically designed for prolonged use
+rather than for short bursts of use followed by a short recycling period.
+The term "deep-cycle" is most often applied to lead-acid batteries. Deep-
+cycle batteries require longer charging times, with lower current levels,
+than is appropriate for regular batteries.
+
+As an example, a typical automobile battery is usually used to provide a
+short, intense burst of electricity to the automobile's starter. The battery is
+then quickly recharged by the automobile's electrical system as the engine
+runs. The typical automobile battery is not a deep-cycle battery. 
+
+A battery that provides power to a recreational vehicle (RV), on the other
+hand, would be expected to power lights, small appliances, and other
+electronics over an extended period of time, even while the RV's engine is
+not running. Deep-cycle batteries are more appropriate for this type of
+continual usage.
+
+2.2.4.  Battery Categories for Vehicular Batteries Vehicular, lead-acid
+batteries are further grouped (by typical usage) into three different
+categories:
+
+-- Starting-Lighting-Ignition (SLI) -- Typically, these batteries are used for
+short, quick-burst, high-current applications. An example is an automotive
+battery, which is expected to provide high current, occasionally, to the
+engine's starter.
+
+-- Traction -- Traction batteries must provide moderate power through
+many deep discharge cycles. One typical use of traction batteries is to
+provide power for small electric vehicles, such as golf carts. This type of
+battery use is also called Cycle Service.
+
+-- Stationary -- Stationary batteries must have a long shelf life and deliver
+moderate to high currents when called upon. These batteries are most often
+used for emergencies. Typical uses for stationary batteries are in
+uninterruptible power supplies (UPS) and for emergency lighting in
+stairwells and hallways. This type of battery use is also called Standby or
+Float.
+
+2.3. "Household" Batteries
+"Household" batteries are those batteries that are primarily used to power
+small, portable devices such as flashlights, radios, laptop computers, toys,
+and cellular phones. The following subsections describe the technologies
+for many of the formerly used and presently used types of household
+batteries.
+
+Typically, household batteries are small, 1.5 V cells that can be readily
+purchased off the shelf. These batteries come in standard shapes and sizes
+as shown in Table 2. They can also be custom designed and molded to fit
+any size battery compartment (e.g., to fit inside a cellular phone,
+camcorder, or laptop computer).
+
+------------------------------- 
+
+Table 2. Various Popular Household-Battery Sizes
+
+Size: Shape and Dimensions; Voltage
+
+D: Cylindrical, 61.5 mm tall, 34.2 mm diameter; 1.5 V
+C: Cylindrical, 50.0 mm tall, 26.2 mm diameter; 1.5 V
+AA: Cylindrical, 50.5 mm tall, 14.5 mm diameter; 1.5 V
+AAA: Cylindrical, 44.5 mm tall, 10.5 mm diameter; 1.5 V
+9 Volt: Rectangular, 48.5 mm tall, 26.5 mm wide, 17.5 mm deep; 9 V 
+
+-------------------------------  
+
+Most of the rest of this guideline will focus on designs, features, and uses
+of household batteries. 
+
+2.3.1.  Zinc-carbon (Z-C)
+Zinc-carbon cells, also known as "Leclanch‚ cells" are widely used
+because of their relatively low cost. Equation 2 shows the chemical
+reaction in a Leclanch‚ cell. They were the first widely available
+household batteries. Zinc-carbon cells are composed of a manganese
+dioxide and carbon cathode, a zinc anode, and zinc chloride (or
+ammonium chloride) as the electrolyte. 
+
+Generally, zinc-carbon cells are not rechargeable and they have a sloping
+discharge curve (i.e., the voltage level decreases relative to the amount of
+discharge). Zinc-carbon cells will produce 1.5 V, and they are mostly used
+for non-critical uses such as small household devices like flashlights and
+portable personal radios.
+
+One notable drawback to these kind of batteries is that the outer, protective
+casing of the battery is made of zinc. The casing serves as the anode for
+the cell and, in some cases, if the anode does not oxidize evenly, the
+casing can develop holes that allow leakage of the mildly acidic electrolyte
+which can damage the device being powered.
+
+2.3.2.  Zinc-Manganese Dioxide Alkaline Cells ("Alkaline Batteries")
+When an alkaline electrolyte--instead of the mildly acidic electrolyte--is
+used in a regular zinc- carbon battery, it is called an "alkaline" battery. An
+alkaline battery can have a useful life of five to six times that of a
+zinc-carbon battery. One manufacturer estimates that 30% of the
+household batteries sold in the world today are zinc-manganese dioxide
+(i.e., alkaline) batteries.[2],[3] 
+
+2.3.3.  Rechargeable Alkaline Batteries
+Like zinc-carbon batteries, alkaline batteries are not generally
+rechargeable. One major battery manufacturer, however, has designed a
+"reusable alkaline" battery that they market as being rechargeable "25
+times or more."[4]
+
+This manufacturer states that its batteries do not suffer from memory
+effects as the Ni-Cd batteries do, and that their batteries have a shelf life
+that is much longer than Ni-Cd batteries--almost as long as the shelf life of
+primary alkaline batteries.
+
+Also, the manufacturer states that their rechargeable alkaline batteries
+contain no toxic metals, such as mercury or cadmium, to contribute to the
+poisoning of the environment.
+
+Rechargeable alkaline batteries are most appropriate for low- and
+moderate-power portable equipment, such as hand-held toys and radio
+receivers.
+
+2.3.4.  Nickel-Cadmium (Ni-Cd)
+Nickel-cadmium cells are the most commonly used rechargeable
+household batteries. They are useful for powering small appliances, such
+as garden tools and cellular phones. The basic galvanic cell in a Ni-Cd
+battery contains a cadmium anode, a nickel hydroxide cathode, and an
+alkaline electrolyte. Equation 3 shows the chemical reaction in a Ni-Cd
+cell. Batteries made from Ni-Cd cells offer high currents at relatively
+constant voltage and they are tolerant of physical abuse. Nickel-cadmium
+batteries are also tolerant of inefficient usage cycling. If a Ni-Cd battery
+has incurred memory loss (Sec. 3.4), a few cycles of discharge and
+recharge can often restore the battery to nearly "full" memory.
+
+Unfortunately, nickel-cadmium technology is relatively expensive.
+Cadmium is an expensive metal and is toxic. Recent regulations limiting
+the disposal of waste cadmium (from cell manufacturing or from disposal
+of used batteries) has contributed to the higher costs of making and using
+these batteries.
+
+These increased costs do have one unexpected advantage. It is more cost
+effective to recycle and reuse many of the components of a Ni-Cd battery
+than it is to recycle components of other types of batteries. Several of the
+major battery manufacturers are leaders in such recycling efforts. 
+
+2.3.5.  Nickel-Metal Hydride (Ni-MH)
+Battery designers have investigated several other types of metals that
+could be used instead of cadmium to create high-energy secondary
+batteries that are compact and inexpensive. The nickel- metal-hydride cell
+is a widely used alternative.
+
+The anode of a Ni-MH cell is made of a hydrogen storage metal alloy, the
+cathode is made of nickel oxide, and the electrolyte is a potassium
+hydroxide solution.
+
+According to one manufacturer, Ni-MH cells can last 40% longer than the
+same size Ni-Cd cells and will have a life-span of up to 600 cycles.[5]
+This makes them useful for high-energy devices such as laptop computers,
+cellular phones, and camcorders.
+
+Ni-MH batteries have a high self-discharge rate and are relatively
+expensive. 
+
+2.3.6.  Nickel-Iron (Ni-I)
+Nickel-iron cells, also known as the Edison battery, are much less
+expensive to build and to dispose of than nickel-cadmium cells.
+Nickel-iron cells were developed even before the nickel- cadmium cells.
+The cells are rugged and reliable, but do not recharge very efficiently.
+They are widely used in industrial settings and in eastern Europe, where
+iron and nickel are readily available and inexpensive.
+
+2.3.7.  Nickel-Zinc (Ni-Z)
+Another alternative to using cadmium electrodes is using zinc electrodes.
+Although the nickel- zinc cell yields promising energy output, the cell has
+some unfortunate performance limitations that prevent the cell from
+having a useful lifetime of more than 200 or so charging cycles. When
+nickel-zinc cells are recharged, the zinc does not redeposit in the same
+"holes" on the anode that were created during discharge. Instead, the zinc
+redeposits in a somewhat random fashion, causing the electrode to become
+misshapen. Over time, this leads to the physical weakening and eventual
+failure of the electrode.
+
+2.3.8.  Lithium and Lithium Ion
+Lithium is a promising reactant in battery technology, due to its high
+electropositivity. The specific energy of some lithium-based cells can be
+five times greater than an equivalent-sized lead-acid cell and three times
+greater than alkaline batteries.[6] Lithium cells will often have a starting
+voltage of 3.0 V. These characteristics translate into batteries that are
+lighter in weight, have lower per-use costs, and have higher and more
+stable voltage profiles. Equation 4 shows the chemical reaction in one kind
+of lithium cell.
+
+Unfortunately, the same feature that makes lithium attractive for use in
+batteries--its high electrochemical potential--also can cause serious
+difficulties in the manufacture and use of such batteries. Many of the
+inorganic components of the battery and its casing are destroyed by the
+lithium ions and, on contact with water, lithium will react to create
+hydrogen which can ignite or can create excess pressure in the cell. Many
+fire extinguishers are water based and will cause disastrous results if used
+on lithium products. Special D-class fire extinguishers must be used when
+lithium is known to be within the boundaries of a fire.[7]
+
+Lithium also has a relatively low melting temperature for a metal, 180
+degrees C (356 degrees F). If the lithium melts, it may come into direct
+contact with the cathode, causing violent chemical reactions.
+
+Because of the potentially violent nature of lithium, the Department of
+Transportation (DOT) has special guidelines for the transport and handling
+of lithium batteries. Contact them to ask for DOT Regulations 49 CFR.
+
+Some manufacturers are having success with lithium-iron sulfide,
+lithium-manganese dioxide, lithium-carbon monoflouride, lithium-cobalt
+oxide, and lithium-thionyl cells.
+
+In recognition of the potential hazards of lithium components,
+manufacturers of lithium-based batteries have taken significant steps to
+add safety features to the batteries to ensure their safe use.
+
+Lithium primary batteries (in small sizes, for safety reasons) are currently
+being marketed for use in flash cameras and computer memory. Lithium
+batteries can last three times longer than alkaline batteries of the same
+size.[8] But, since the cost of lithium batteries can be three times that of
+alkaline batteries, the cost benefits of using lithium batteries are marginal. 
+
+Button-size lithium batteries are becoming popular for use in computer
+memory back-up, in calculators, and in watches. In applications such as
+these, where changing the battery is difficult, the longer lifetime of the
+lithium battery makes it a desirable choice.
+
+One company now produces secondary lithium-ion batteries with a voltage
+of 3.7 V, "four times the energy density of Ni-Cd batteries," "one-fifth the
+weight of Ni-Cd batteries," and can be recharged 500 times.[9]
+
+In general, secondary (rechargeable) lithium-ion batteries have a good
+high-power performance, an excellent shelf life, and a better life span than
+Ni-Cd batteries. Unfortunately, they have a very high initial cost and the
+total energy available per usage cycle is somewhat less than Ni-Cd
+batteries.
+
+2.4. Specialty Batteries ("Button" and Miniature Batteries) 
+"Button" batteries are the nickname given to the category of batteries that
+are small and shaped like a coin or a button. They are typically used for
+small devices such as cameras, calculators, and electronic watches.
+
+Miniature batteries are very small batteries that can be custom built for
+devices, such as hearing aids and electronic "bugs," where even button
+batteries can be too large. Industry standardization has resulted in five to
+ten standard types of miniature batteries that are used throughout the
+hearing-aid industry.
+
+Together, button batteries and miniature batteries are referred to as
+specialty batteries. 
+
+Most button and miniature batteries need a very high energy density to
+compensate for their small size. The high energy density is achieved by
+the use of highly electropositive--and expensive--metals such as silver or
+mercury. These metals are not cost effective enough to be used in larger
+batteries.
+
+Several compositions of specialty batteries are described in the following
+sections. 
+
+2.4.1.  Metal-Air Cells
+A very practical way to obtain high energy density in a galvanic cell is to
+utilize the oxygen in air as a "liquid" cathode. A metal, such as zinc or
+aluminum, is used as the anode. The oxygen cathode is reduced in a
+portion of the cell that is physically isolated from the anode. By using a
+gaseous cathode, more room is available for the anode and electrolyte, so
+the cell size can be very small while providing good energy output. Small
+metal-air cells are available for applications such as hearing aids, watches,
+and clandestine listening devices.
+
+Metal-air cells have some technical drawbacks, however. It is difficult to
+build and maintain a cell where the oxygen acting as the cathode is
+completely isolated from the anode. Also, since the electrolyte is in direct
+contact with air, approximately one to three months after it is activated,
+the electrolyte will become too dry to allow the chemical reaction to
+continue. To prevent premature drying of the cells, a seal is installed on
+each cell at the time of manufacture. This seal must be removed by the
+customer prior to first use of the cell. Alternately, the manufacturer can
+provide the battery in an air-tight package.
+
+2.4.2.  Silver Oxide
+Silver oxide cells use silver oxide as the cathode, zinc as the anode, and
+potassium hydroxide as the electrolyte. Silver oxide cells have a
+moderately high energy density and a relatively flat voltage profile. As a
+result, they can be readily used to create specialty batteries. Silver oxide
+cells can provide higher currents for longer periods than most other
+specialty batteries, such as those designed from metal-air technology. Due
+to the high cost of silver, silver oxide technology is currently limited to
+use in specialty batteries.
+
+2.4.3.  Mercury Oxide
+Mercury oxide cells are constructed with a zinc anode, a mercury oxide
+cathode, and potassium hydroxide or sodium hydroxide as the electrolyte.
+Mercury oxide cells have a high energy density and flat voltage profile
+resembling the energy density and voltage profile of silver oxide cells.
+These mercury oxide cells are also ideal for producing specialty batteries.
+The component, mercury, unfortunately, is relatively expensive and its
+disposal creates environmental problems. 
+
+2.5. Other Batteries
+This section describes battery technology that is not mature enough to be
+available off-the- shelf, has special usage limitations, or is otherwise
+impractical for general use. 
+
+2.5.1.  Nickel-Hydrogen (Ni-H)
+Nickel-hydrogen cells were developed for the U.S. space program. Under
+certain pressures and temperatures, hydrogen (which is, surprisingly,
+classified as an alkali metal) can be used as an active electrode opposite
+nickel. Although these cells use an environmentally attractive technology,
+the relatively narrow range of conditions under which they can be used,
+combined with the unfortunate volatility of hydrogen, limits the
+long-range prospects of these cells for terrestrial uses.
+
+2.5.2.  Thermal Batteries
+A thermal battery is a high-temperature, molten-salt primary battery. At
+ambient temperatures, the electrolyte is a solid, non-conducting inorganic
+salt. When power is required from the battery, an internal pyrotechnic heat
+source is ignited to melt the solid electrolyte, thus allowing electricity to
+be generated electrochemically for periods from a few seconds to an hour.
+Thermal batteries are completely inert until the electrolyte is melted and,
+therefore, have an excellent shelf life, require no maintenance, and can
+tolerate physical abuse (such as vibrations or shocks) between uses.
+
+Thermal batteries can generate voltages of 1.5 V to 3.3 V, depending on
+the battery's composition. Due to their rugged construction and absence of
+maintenance requirements, they are most often used for military
+applications such as missiles, torpedoes, and space missions and for
+emergency-power situations such as those in aircraft or submarines.
+
+The high operating temperatures and short active lives of thermal batteries
+limit their use to military and other large-institution applications.
+
+2.5.3.  Super Capacitor
+This kind of battery uses no chemical reaction at all. Instead, a special
+kind of carbon (carbon aerogel), with a large molecular surface area, is
+used to create a capacitor that can hold a large amount of electrostatic
+energy.[10] This energy can be released very quickly, providing a specific
+energy of up to 4000 Watt-hours per kilogram (Wh/kg), or it can be
+regulated to provide smaller currents typical of many commercial devices
+such as flashlights, radios, and toys. Because there are no chemical
+reactions, the battery can be recharged hundreds of thousands of times
+without degradation. Other potential advantages of this kind of cell are its
+low cost and wide temperature range. One disadvantage, however, is its
+high self-discharge rate. The voltage of some prototypes is approximately
+2.5 V.
+
+2.5.4.  The Potato Battery
+One interesting science experiment involves sticking finger-length pieces
+of copper and zinc wire, one at a time, into a raw potato to create a battery.
+The wires will carry a very weak current which can be used to power a
+small electrical device such as a digital clock. 
+
+One vendor sells a novelty digital watch that is powered by a potato
+battery. The wearer must put a fresh slice of potato in the watch every few
+days.
+
+2.5.5.  The Sea Battery
+Another interesting battery design uses a rigid framework, containing the
+anode and cathode, which is immersed into the ocean to use sea water as
+the electrolyte. This configuration seems promising as an emergency
+battery for marine use.
+
+2.5.6.  Other Developments
+Scientists are continually working on new combinations of materials for
+use in batteries, as well as new manufacturing methods to extract more
+energy from existing configurations. 
+
+-------------------------------
+
+3. PERFORMANCE, ECONOMICS AND TRADEOFFS
+
+3.1. Energy Densities
+The energy density of a battery is a measure of how much energy the
+battery can supply relative to its weight or volume. A battery with an
+energy density twice that of another battery should, theoretically, have an
+active lifetime twice as long.
+
+The energy density of a battery is mainly dependent on the composition of
+its active components. A chemist can use mathematical equations to
+determine the theoretical maximum voltage and current of a proposed cell,
+if the chemical composition of the anode, cathode, and electrolyte of the
+cell are all known. Various physical attributes, such as purity of the
+reactants and the particulars of the manufacturing process can cause the
+measured voltage, current, and capacity to be lower than their theoretical
+values.
+
+3.2. Energy per Mass
+Figure 2 compares the gravimetric energy densities of various dry cell
+systems discharged at a constant rate for temperatures between -40 degrees
+C (-40 degrees F) and 60 degrees C (140 degrees F).
+
+Of the systems shown, the zinc-air cell produces the highest gravimetric
+energy density. Basic zinc-carbon cells have the lowest gravimetric energy
+density. 
+
+3.3. Energy Per Volume
+Figure 3 compares the volumetric energy densities of various dry cell
+systems discharged at a constant rate for temperatures between -40 degrees
+C (-40 degrees F) and 60 degrees C (140 degrees F).
+
+Of the systems shown, the zinc-air cell produces the highest volumetric
+energy density. Basic zinc-carbon cells have the lowest volumetric energy
+density. The curves for secondary battery cells are not shown in the tables.
+
+Of the major types of secondary cells, Ni-Cd batteries and wet-cell
+lead-acid batteries have approximately the same volumetric energy
+density. Ni-MH batteries have approximately twice the volumetric energy
+density of Ni-Cd batteries. 
+
+3.4. Memory Effects
+As a rechargeable battery is used, recharged, and used again, it loses a
+small amount of its overall capacity. This loss is to be expected in all
+secondary batteries as the active components become irreversibly
+consumed.
+
+Ni-Cd batteries, however, suffer an additional problem, called the memory
+effect. If a Ni-Cd battery is only partially discharged before recharging it,
+and this happens several times in a row, the amount of energy available for
+the next cycle will only be slightly greater than the amount of energy
+discharged in the cell's most-recent cycle. This characteristic makes it
+appear as if the battery is "remembering" how much energy is needed for a
+repeated application. 
+
+The physical process that causes the memory effect is the formation of
+potassium-hydroxide crystals inside the cells. This build up of crystals
+interferes with the chemical process of generating electrons during the
+next battery-use cycle. These crystals can form as a result of repeated
+partial discharge or as a result of overcharging the Ni-Cd battery. 
+
+The build up of potassium-hydroxide crystals can be reduced by
+periodically reconditioning the battery. Reconditioning of a Ni-Cd battery
+is accomplished by carefully controlled power cycling (i.e., deeply
+discharging and then recharging the battery several times). This power
+cycling will cause most of the crystals to redissolve back into the
+electrolyte. Several companies offer this reconditioning service, although
+battery users can purchase a reconditioner and recondition their own
+batteries. Some batteries can be reconditioned without a special
+reconditioner by completely draining the battery (using the battery
+powered device itself or a resistive circuit designed to safely discharge the
+battery) and charging it as normal.
+
+3.5. Voltage Profiles
+The voltage profile of a battery is the relation- ship of its voltage to the
+length of time it has been discharging (or charging). In most primary
+batteries, the voltage will drop steadily as the chemical reactions in the cell
+are diminished. This diminution leads to an almost-linear drop in voltage,
+called a sloping profile. Batteries with sloping voltage profiles provide
+power that is adequate for many applications such as flashlights, flash
+cameras, and portable radios. 
+
+Ni-Cd batteries provide a relatively flat voltage profile. The cell's voltage
+will remain relatively constant for more than two-thirds of its discharge
+cycle. At some point near the end of the cycle, the voltage drops sharply to
+nearly zero volts. Batteries with this kind of profile are used for devices
+that require a relatively steady operating voltage. 
+
+One disadvantage of using batteries with a flat voltage profile is that the
+batteries will need to be replaced almost immediately after a drop in
+voltage is noticed. If they are not immediately replaced, the batteries will
+quickly cease to provide any useful energy. 
+
+Figure 4 shows the conceptual difference between a flat discharge rate and
+a sloping discharge rate.
+
+Figure 5 (Sec. 5) shows actual voltage profiles for several common battery
+types. 
+
+3.6. Self-Discharge Rates
+All charged batteries (except thermal batteries and other batteries
+specifically designed for a near-infinite shelf life) will slowly lose their
+charge over time, even if they are not connected to a device. Moisture in
+the air and the slight conductivity of the battery housing will serve as a
+path for electrons to travel to the cathode, discharging the battery. The rate
+at which a battery loses power in this way is called the self-discharge rate.
+
+Ni-Cd batteries have a self-discharge rate of approximately 1% per day.
+Ni-MH batteries have a much higher self-discharge rate of approximately
+2% to 3% per day. These high discharge rates require that any such
+battery, which has been stored for more than a month, be charged before
+use.
+
+Primary and secondary alkaline batteries have a self-discharge rate of
+approximately 5% to 10% per year, meaning that such batteries can have a
+useful shelf life of several years. Lithium batteries have a self-discharge
+rate of approximately 5% per month. 
+
+3.7. Operating Temperatures
+As a general rule, battery performance deteriorates gradually with a rise in
+temperature above 25 degrees C (77 degrees F), and performance
+deteriorates rapidly at temperatures above 55 degrees C (131 degrees F).
+At very low temperatures -20 degrees C (-4 degrees F) to 0 degree C (32
+degrees F), battery performance is only a fraction of that at 25 degrees C
+(77 degrees F). Figure 2 and Figure 3 show the differences in energy
+density as a function of temperature. 
+
+At low temperatures, the loss of energy capacity is due to the reduced rate
+of chemical reactions and the increased internal resistance of the
+electrolyte. At high temperatures, the loss of energy capacity is due to the
+increase of unwanted, parasitic chemical reactions in the electrolyte. 
+Ni-Cd batteries have a recommended temperature range of +17 degrees C
+(62 degrees F) to 37 degrees C (98 degrees F). Ni-MH have a
+recommended temperature range of 0 degree C (32 degrees F) to 32
+degrees C (89 degrees F).
+
+3.8. Cycle Life
+The cycle life of a battery is the number of discharge/recharge cycles the
+battery can sustain, with normal care and usage patterns, before it can no
+longer hold a useful amount of charge. 
+
+Ni-Cd batteries should have a normal cycle life of 600 to 900 recharge
+cycles. Ni-MH batteries will have a cycle life of only 300 to 400 recharge
+cycles. As with all rechargeable batteries, overcharging a Ni-Cd or Ni-MH
+battery will significantly reduce the number of cycles it can sustain.
+
+3.9. Capacity Testing
+Many battery manufacturers recommend the constant-load test to
+determine the capacity of a battery. This test is conducted by connecting a
+predetermined load to the battery and then recording the amount of time
+needed to discharge the battery to a predetermined level. 
+
+Another recommended test is the intermittent-or switching-load test. In
+this type of test, a predetermined load is applied to the battery for a
+specified period and then removed for another period. This load
+application and removal is repeated until the battery reaches a
+predetermined level of discharge. This kind of test simulates the battery
+usage of a portable radio. 
+
+A comparison of these two kinds of tests was performed on five
+commonly available types of batteries.[11] The data shows that the five
+tested batteries all had a constant-load duration of 60 to 80 minutes, which
+indicates that the five batteries had similar capacities. 
+
+But, intermittent-load testing of those same five batteries showed that the
+duration of the batteries ranged from 8.5 hours to 12 hours. There was no
+correlation of the results of the two tests, meaning that batteries that
+performed best under constant-load testing did not necessarily perform
+well under intermittent-load testing. The study concluded that the ability
+of a battery to recover itself between heavy current drains cannot be made
+apparent through a constant-load test. 
+
+3.10. Battery Technology Comparison
+Table 3 shows a comparison of some of the performance factors of several
+common battery types.
+
+The initial capacity of a battery refers to the electrical output, expressed in
+ampere-hours, which the fresh, fully charged battery can deliver to a
+specified load. The rated capacity is a designation of the total electrical
+output of the battery at typical discharge rates; e.g., for each minute of
+radio transceiver operation, 6 seconds shall be under a transmit current
+drain, 6 seconds shall be under a receive current drain and 48 seconds shall
+be under a standby current drain.
+
+------------------------------- 
+
+Table 3. Battery Technology Comparison (adapted from Design Note:
+Renewable Reusable Alkaline Batteries)
+
+(See Sec. 3.10)
+
+Secondary Alkaline: 
+Initial Capacity = 2; Rated Capacity = 4; Self-Discharge = 1; Cycle Life =
+2; Initial Cost* = 2; Life-Cycle Cost* = 2
+
+Primary Alkaline:
+Initial Capacity = 1; Rated Capacity = 3; Self-Discharge = 1; Cycle Life =
+4; Initial Cost* = 1; Life-Cycle Cost* = 4
+
+Ni-Cd:
+Initial Capacity = 4; Rated Capacity = 1; Self-Discharge = 3; Cycle Life =
+1; Initial Cost* = 3; Life-Cycle Cost* = 2
+
+Ni-MH:
+Initial Capacity = 3; Rated Capacity = 2; Self-Discharge = 4; Cycle Life =
+1; Initial Cost* = 4; Life-Cycle Cost* = 2
+
+Worst Performance = 4, Low Performance = 3, Good Performance= 2,
+Best Performance = 1 *A better performance ranking means lower costs.
+
+-------------------------------        
+
+The self-discharge rate is the rate at which the battery will lose its charge
+during storage or other periods of non-use. The cycle life is the number of
+times that the rechargeable battery can be charged and discharged before it
+becomes no longer able to hold or deliver any useful amount of energy.
+
+The initial cost is the relative cost of purchasing the battery. The life-cycle
+cost is the per-use relative cost of the battery.
+
+Table 4 shows a more detailed comparison of many of the available
+battery types. 
+
+-------------------------------  
+
+4. SELECTING THE RIGHT BATTERY FOR THE APPLICATION
+
+Batteries come in many different shapes, sizes, and compositions. There is
+no one "ideal" battery that can satisfy all possible requirements equally.
+Different battery technologies have been developed that will optimize
+certain parameters for specific battery uses. 
+
+In general, the energy output of a battery is related only to its size and
+material composition. Different battery designs and different
+manufacturing methods (for the same type, size, and composition of
+battery) will, in general, lead to only minor differences in the batteries'
+electrical output. Battery-industry standards have contributed to the fact
+that batteries (of the same type, composition, and size) from different
+manufacturers are quite interchangeable. 
+
+However, the small differences that do exist between batteries made by
+different manufacturers, can be significant when using a multi-cell array of
+matched cells. In these cases, potential replacement cells must be graded
+to see if the cells properly match the capacity of the existing cells.
+
+Even for non-matched, multi-cell applications, such as flashlights, portable
+radios, etc., it is still a good rule of thumb to avoid mixing batteries from
+different manufacturers within one device. Small variances in voltage and
+current, between different brands of battery, can slightly shorten the useful
+life span of all of the batteries.
+
+Do not mix batteries of different types (e.g., do not mix rechargeable
+alkaline batteries with Ni- Cd batteries) within a single device or within an
+array of batteries. 
+
+Figure 5 shows some discharge curves for several popular AA size battery
+types. Two of the curves (secondary alkaline [1st use] and [25th use])
+show that secondary alkaline batteries rapidly lose their capacity as they
+are used and recharged. Only one Ni-Cd curve is shown, since its curve
+remains essentially the same throughout most its life span. 
+
+4.1. Battery Properties
+Battery applications vary, as do considerations for selecting the correct
+battery for each application. Some of the important factors that customers
+might consider when selecting the right battery for a particular application
+are listed below:
+
+-- Chemistry -- Which kind of battery chemistry is best for the
+application? Different chemistries will generate different voltages and
+currents.
+
+-- Primary or Secondary -- Primary batteries are most appropriate for
+applications where infrequent, high-energy output is required. Secondary
+batteries are most appropriate for use in devices that see steady periods of
+use and non-use (pagers, cellular phones, etc.). 
+
+-- Standardization and Availability -- Is there an existing battery design
+that meets the application needs? Will replacement batteries be available
+in the future? Using existing battery types is almost always preferable to
+specifying a custom-made battery design. 
+
+-- Flexibility -- Can the battery provide high or low currents over a wide
+range of conditions? 
+
+-- Temperature Range -- Can the battery provide adequate power over the
+expected temperature range for the application?
+
+-- Good Cycle Life -- How many times can the rechargeable battery be
+discharged and recharged before it becomes unusable?
+
+-- Costs -- How expensive is the battery to purchase? Does the battery
+require special handling? 
+
+-- Shelf Life -- How long can the battery be stored without loss of a
+significant amount of its power?
+
+-- Voltage -- What is the voltage of the battery? (Most galvanic cells
+produce voltages of between 1.0 and 2.0 V.)
+
+-- Safety -- Battery components range from inert, to mildly corrosive, to
+highly toxic or flammable. The more hazardous components will require
+additional safety procedures. 
+
+-- Hidden Costs -- Simpler manufacturing processes result in lower cost
+batteries. However, if a battery contains toxic or hazardous components,
+extra costs will be incurred to dispose of the battery safely after its use.
+
+Table 5 shows a short list of different battery types and the kinds of
+application that are appropriate for each.
+
+4.2. Environmental Concerns
+All battery components, when discarded, contribute to the pollution of the
+environment. Some of the components, such as paperboard and carbon
+powder, are relatively organic and can quickly merge into the ecosystem
+without noticeable impact. Other components, such as steel, nickel, and
+plastics, while not actively toxic to the ecosystem, will add to the volume
+of a landfill, since they decompose slowly.
+
+------------------------------- 
+
+Table 5. Recommended Battery Types for Various Usage Conditions 
+Battery Type: Primary Alkaline
+Device Drain Rate: High
+Device Use Frequency: Moderate
+
+Battery Type: Secondary Alkaline
+Device Drain Rate: Moderate
+Device Use Frequency: Moderate
+
+Battery Type: Primary Lithium
+Device Drain Rate: High
+Device Use Frequency: Frequent
+
+Battery Type: Secondary Ni-Cd
+Device Drain Rate: High
+Device Use Frequency: Frequent
+
+Battery Type: Primary Zn-C ("Heavy Duty")
+Device Drain Rate: Moderate
+Device Use Frequency: Regular
+
+Battery Type: Primary Zn-C ("Standard")
+Device Drain Rate: Low
+Device Use Frequency: Occasional
+
+-------------------------------
+
+Of most concern, however, are the heavy-metal battery components,
+which, when discarded, can be toxic to plants, animals, and humans.
+Cadmium, lead, and mercury are the heavy-metal components most likely
+to be the target of environmental concerns. 
+
+Several of the major battery manufacturers have taken steps to reduce the
+amount of toxic materials in their batteries. One manufacturer reports the
+reduction of the mercury content of their most-popular battery from
+0.75%, in 1980, to 0.00%, in 1996.[12] Other manufacturers report that
+their current battery formulas contain no mercury. The U.S. Department of
+Mines, in 1994, estimated that, for the U.S. production of household
+batteries, mercury usage had fallen from 778 tons in 1984 to (a projected)
+10 tons in 1995.[13]
+
+Many of the major battery manufacturers have put significant efforts into
+the recycling of discarded batteries. According to one manufacturer, it
+takes six to ten times more energy to recycle a battery than to create the
+battery components from virgin materials. Efforts are underway that could
+improve the recycling technology to make recycling batteries much more
+energy efficient and cost effective.[14]
+
+The use of secondary (rechargeable) batteries is more cost efficient than
+the use of primary batteries. Such use will reduce the physical volume of
+discarded batteries in landfills, because the batteries can be recharged and
+reused 25 to 1000 times before they must be discarded. 
+
+The most popular secondary batteries, however, contain cadmium. Many
+manufacturers, responding to customer requests and legislative demands,
+are designing nickel-metal hydride, lithium-ion, and rechargeable-alkaline
+secondary batteries that contain only trace amounts of cadmium, lead, or
+mercury.
+
+4.3. Standardization
+Existing off-the-shelf batteries are often preferred to batteries that require
+special design and manufacturing. Some benefits of using off-the-shelf
+batteries are listed below: 
+
+--  The use of a proven design can reduce the risk of the battery not
+working properly. 
+
+--  The use of tested technology eliminates costly and time-consuming
+development efforts. 
+
+--  The use of a proven design reduces unit production costs because of
+competitive, multi-source availability.
+
+--  The use of tested technology reduces operations and support costs
+through commonality of training, documentation, and replacement efforts.
+
+4.4. Testing Capacities
+One method of estimating battery capacity requirements for a specific
+battery-powered device is to calculate the current drawn during the typical
+duty cycle for the device. 
+
+Standard duty cycles for battery service life and capacity determinations
+are defined in EIA/TIA Standard 603 for land mobile radio
+communications[15] and NIJ Standard-0211.01 for hand- held portable
+radio applications.[16] Specifically, in an average 1 minute period of
+mobile-radio usage, 6 seconds (10%) is spent receiving, 6 seconds (10%)
+is spent transmitting and 48 seconds (80%) is spent in the idle mode. Table
+8 provides an example of a transceiver drawing an average current of 8.0 +
+6.2 + 32.5 = 46.7 mA. For a typical duty cycle composed of 8 hours of
+operation (followed by 16 hours of rest) a minimum battery capacity of
+374 mAh is required. One manufacturer of portable communications
+equipment recommends that batteries be replaced if they fail to deliver
+80% or more of their original rated capacity. Below 80% batteries are
+usually found to deteriorate quickly. Because a minimum requirement of
+374 mAh is 75% of the rated capacity of a 500 mAh battery, the latter
+should adequately provide power for the entire duty described.[17]
+
+-------------------------------
+
+Table 6. Typical Usage of Portable Telecommunications Equipment. 
+Standby  Mode
+Percent of Duty Cycle: 80% (48 minutes of each hour)
+Current Drain for Mode: 10 mA
+Average Current for Mode: 8.0 mA
+
+Receive Mode
+Percent of Duty Cycle: 10% (6 minutes of each hour)
+Current Drain for Mode: 62 mA
+Average Current for Mode: 6.2 mA
+
+Transmit Mode
+Percent of Duty Cycle: 10% (6 minutes of each hour)
+Current Drain for Mode: 325 mA
+Average Current for Mode: 32.5 mA
+
+-------------------------------
+
+Similar calculations can be performed for any battery in any
+battery-powered device by using the data relevant to the device and the
+proposed battery. The manufacturers should either provide such
+appropriate information with the batteries and devices, or they should be
+able to provide those data on request.
+
+4.5. Mobile Radios
+As reported above, mobile radios have a typical duty cycle of 10%
+transmit, 10% receive, and 80% standby. The maximum current drain will
+occur during the transmit cycle. Each radio, typically, will have a daily
+cycle of 8 hours of use and 16 hours of non-use. The non-use hours may
+be used to charge the radio's batteries.
+
+Most commercial, off-the-shelf mobile-radio units include a battery. But,
+since many radio units are in service 7 days a week, 52 weeks a year, and
+since the batteries are discharged and recharged daily, each set of batteries
+should wear out approximately once every two years (~700 recharge
+cycles). Replacement batteries should be purchased as directed by the user
+manual for the unit.
+
+4.6. Cellular Phones and PCS Phones
+Most commercial, off-the-shelf cellular phones contain a battery when
+purchased. Charging units may be supplied with the phone or may be
+purchased separately. 
+
+Typical usage for cellular telephones will vary significantly with user, but,
+the estimate for mobile radio usage (10% of the duty cycle is spent in
+transmit mode, 10% in receive mode, and 80% in standby mode) is also a
+reasonable estimate for cellular phone usage. At the end of each usage
+cycle, the user places the battery (phone) on a recharging unit that will
+charge the battery for the next usage cycle. This usage pattern is
+appropriate for Ni-Cd or Ni-MH batteries. Ni-Cd batteries should be
+completely discharged between uses to prevent memory effects created by
+a recurring duty cycle.
+
+When a replacement or spare battery is needed, only replacements,
+recommended by the phone manufacturer should be used.
+
+Batteries and battery systems from other manufacturers may be used if the
+batteries are certified to work with that particular brand and model of
+phone. Damage to the phone may result if non- certified batteries are used.
+
+Several battery manufacturers make replacement battery packs that are
+designed to work with a wide variety of cellular phones. Because of the
+variety of phones available, battery manufacturers must design and sell
+several dozen different types of batteries to fit the hundreds of models of
+cellular phones from dozens of different manufacturers.[18] The user is
+advised to check battery interoperability charts before purchasing a
+replacement battery. 
+
+One battery manufacturer offers a battery replacement system that allows a
+phone owner to use household primary batteries, inserted into a special
+housing (called a refillable battery pack), to replace the phone's regular
+rechargeable battery pack. This refillable pack, says the manufacturer, is
+designed for light-use customers, who require that their phone's batteries
+have the long shelf life of primary batteries. This refillable pack can also
+be used in emergencies, for example, where the phone's rechargeable
+battery pack is exhausted and no recharged packs are available. Primary
+household batteries can be readily purchased (or borrowed from other
+devices), inserted into the refillable pack, and used to power the
+phone.[19]
+
+4.7. Laptop Computers
+Most commercial, off-the-shelf laptop computers have a built-in battery
+system. In addition to the battery provided, most laptops will have a
+battery adapter that also serves as a battery charger.
+
+The expected usage of a laptop computer is that the operator will use it
+several times a week, for periods of several hours at a time. The computer
+will drain the battery at a moderate rate when the computer is running, and
+at the self-discharge rate when the computer is shut off. Quite often, the
+user will use the computer until the "low battery" alarm sounds. At this
+point, the battery will be drained of 90% of its charge before the user
+recharges it. The computer will also register regular periods of non-use,
+during which the battery can be recharged. Secondary Ni-Cd batteries are
+most appropriate for this usage pattern.
+
+When a laptop-computer battery reaches the end of its life cycle, it should
+be replaced with a battery designed specifically for that laptop computer.
+Using other types of batteries may damage the computer. The user's
+manual for the laptop computer will list one or more battery types and
+brands that may be used. If in doubt, the user is advised to contact the
+manufacturer of the laptop computer and ask for a battery-replacement
+recommendation. 
+
+4.8. Camcorders
+Almost all commercial, off-the-shelf camcorders come with a battery and
+a recharging unit when purchased.
+
+The camcorder is typically operated continuously for several minutes or
+hours (to produce a video recording of some event). This use will require
+that the battery provide approximately 2 hours of non-stop recording time.
+The electric motor driving the recording tape through the camcorder
+requires a moderately high amount of power throughout the entire
+recording period. 
+
+Rechargeable Ni-Cd or Ni-MH batteries or primary lithium batteries are
+usually the only choice for camcorder use. Several battery manufacturers
+produce Ni-Cd or Ni-MH batteries that are specially designed for use in
+camcorders. Due to the lack of sufficient standardization for these kind of
+batteries, the battery manufacturers must design and sell approximately 20
+different camcorder batteries to fit at least 100 models of camcorders from
+over a dozen manufacturers.[20]
+
+Camcorder batteries are usually designed to provide 2 hours of service, but
+larger batteries are available that can provide up to 4 hours of service.
+
+Lithium camcorder batteries can provide three to five times the energy of a
+single cycle of secondary Ni-Cd batteries. These lithium batteries,
+however, are primary batteries and must be properly disposed of at the end
+of their life cycle. Secondary lithium-ion camcorder batteries are being
+developed.
+
+4.9. Summary
+There are six varieties of batteries in use, each with its own advantages
+and disadvantages. Below is a short summary of each variety:
+
+-- Lead-Acid -- Secondary lead-acid batteries are the most popular
+worldwide. Both the battery product and the manufacturing process are
+proven, economical, and reliable. 
+
+-- Nickel-Cadmium -- Secondary Ni-Cd batteries are rugged and reliable.
+They exhibit a high- power capability, a wide operating temperature range,
+and a long cycle life. They have a self- discharge rate of approximately 1%
+per day.
+
+-- Alkaline -- The most commonly used primary cell (household) is the
+zinc-alkaline manganese dioxide battery. They provide more
+power-per-use than secondary batteries and have an excellent shelf life.
+
+-- Rechargeable Alkaline -- Secondary alkaline batteries have a long shelf
+life and are useful for moderate-power applications. Their cycle life is less
+than most other secondary batteries. 
+
+-- Lithium Cells -- Lithium batteries offer performance advantages well
+beyond the capabilities of conventional aqueous electrolyte battery
+systems. However, lithium batteries are not widely used because of safety
+concerns.
+
+-- Thermal Batteries -- These are special batteries that are capable of
+providing very high rates of discharge for short periods of time. They have
+an extremely long shelf life, but, because of the molten electrolyte and
+high operating temperature, are impractical for most household uses.
+
+-------------------------------
+
+5. BATTERY HANDLING AND MAINTENANCE
+
+The following guidelines offer specific advice on battery handling and
+maintenance. This advice is necessarily not all inclusive. Users are
+cautioned to observe specific warnings on individual battery labels and to
+use common sense when handling batteries. 
+
+5.1. Battery Dangers
+-- To get help, should someone swallow a battery, immediately call The
+National Battery Ingestion Hot Line collect at (202) 625-3333. Or, call
+911 or a state/local Poison Control Center.
+
+-- Batteries made from lead (or other heavy metals) can be very large and
+heavy and can cause damage to equipment or injuries to personnel if
+improperly handled.
+ 
+-- When using lithium batteries, a "Lith-X" or D-Class fire extinguisher
+should always be available. Water-based extinguishers must not be used
+on lithium of any kind, since water will react with lithium and release
+large amounts of explosive hydrogen. 
+
+--  Before abusively testing a battery, contact the manufacturer of the
+battery to identify any potential dangers.
+
+-- Vented batteries must be properly ventilated. Inadequate ventilation may
+result in the build up of volatile gases, which may result in an explosion or
+asphyxiation. 
+
+--  Do not attempt to solder directly onto a terminal of the battery.
+Attempting to do so can damage the seal or the safety vent.
+
+--  When disconnecting a battery from the device it is powering,
+disconnect one terminal at a time. If possible, first remove the ground
+strap at its connection with the device's framework. Observing this
+sequence can prevent an accidental short circuit and also avoid risking a
+spark at the battery. In most late-model, domestic automobiles, the battery
+terminal labeled "negative" is usually connected to the automobile's
+framework.
+
+--  Do not attempt to recharge primary batteries. This kind of battery is not
+designed to be recharged and may overheat or leak if recharging is
+attempted. 
+
+-- When recharging secondary batteries, use a charging device that is
+approved for that type of battery. Using an approved charging device can
+prevent overcharging or overheating the battery. Many chargers have
+special circuits built into them for correctly charging specific types of
+batteries and will not work properly with other types.
+
+--  Do not use secondary (rechargeable) batteries in smoke detectors.
+Secondary batteries have a high self-discharge rate. Primary batteries have
+a much longer shelf life and are much more dependable in emergencies.
+Consult the smoke detector's user manual for the recommended battery
+types.
+
+--  Do not attempt to refill or repair a worn-out or damaged battery. 
+
+--  Do not allow direct bodily contact with battery components. Acidic or
+alkaline electrolyte can cause skin irritation or burns. Electrode materials
+such as mercury or cadmium are toxic. Lithium can cause an explosion if
+it comes into contact with water. Other components can cause a variety of
+short-term (irritation and burns) or long-term (nerve damage) maladies. 
+
+--  Do not lick a 9 V battery to see if it is charged. You will, of course, be
+able to determine whether or not the battery is charged, but such a test may
+result in a burn that may range from simply uncomfortable to serious.
+
+--  Do not dispose of batteries in a fire. The metallic components of the
+battery will not burn and the burning electrolyte may splatter, explode, or
+release toxic fumes. Batteries may be disposed of, however, in industrial
+incinerators that are approved for the disposal of batteries. 
+
+--  Do not carry batteries in your pocket. Coins, keys, or other metal
+objects can short circuit a battery, which can cause extreme heat, acid
+leakage, or an explosion. 
+
+--  Do not wear rings, metal jewelry, or metal watchbands while handling
+charged cells. Severe burns can result from accidentally short circuiting a
+charged cell. Wearing gloves can reduce this danger.
+
+--  Do not use uninsulated tools near charged cells. Do not place charged
+cells on metal workbenches. Severe arcing and overheating can result if
+the battery's terminals are shorted by contact with such metal objects.
+
+------------------------------- 
+
+The Straight Dope
+by Cecil Adams, The Chicago Reader
+
+Is it true that refrigerating batteries will extend shelf life? If so, why does a
+cold car battery cause slower starts? The answer will help me sleep better.
+-- Kevin C., Alexandria, Virginia 
+
+Whatever it takes, dude. Refrigerating batteries extends shelf life because
+batteries produce electricity through a chemical reaction. Heat speeds up
+any reaction, while cold slows it down. Freeze your [car battery] and you'll
+extend its life because the juice won't leak away--but it'll also make those
+volts a little tough to use right away. That accounts for the belief
+occasionally voiced by mechanics that if a battery is left on the garage
+floor for an extended period, the concrete will "suck out the electricity." It
+does nothing of the kind, but a cold floor will substantially reduce a
+battery's output. The cure: warm it up first. 
+
+(Reprinted, with permission, from Return of the Straight Dope. [copyright]
+1994 Chicago Reader, Inc.)
+
+-------------------------------        
+ 
+ 5.2. Extending Battery Life
+
+-- Read the instructions for the device before installing batteries. Be sure
+to orient the battery's positive and negative terminals correctly when
+inserting them. 
+
+-- In a device, use only the type of battery that is recommended by the
+manufacturer of the device.
+
+-- To find a replacement battery that works with a given device, call the
+manufacturer of the device or ask the retailer to check the manufacturer's
+battery cross-reference guide. 
+
+-- Store batteries in a cool, dark place. This helps extend their shelf life.
+Refrigerators are convenient locations. Although some battery
+manufacturers say that refrigeration has no positive effect on battery life,
+they say it has no negative effect either. Do not store batteries in a freezer.
+Always let batteries come to room temperature before using them. 
+
+-- Store batteries in their original boxes or packaging materials. The
+battery manufacturer has designed the packaging for maximum shelf life.
+
+-- When storing batteries, remove any load or short circuit from their
+terminals. 
+
+-- When storing battery-powered devices for long periods (i.e., more than a
+month), remove the batteries. This can prevent damage to the device from
+possible battery leakage. Also, the batteries can be used for other
+applications while the batteries are still "fresh." 
+
+-- Use a marking pen to indicate, on the battery casing, the day and year
+that the battery was purchased. Also, keep track of the number of times the
+battery has been recharged. Avoid writing on or near the battery terminals.
+
+-- Do not mix batteries from different manufacturers in a multi-cell device
+(e.g., a flashlight). Small differences in voltage, current, and capacity,
+between brands, can reduce the average useful life of all the batteries.
+
+-- When using secondary batteries in a multi-cell device (e.g., a flashlight),
+try to use batteries of the same age and similar charging histories. This
+kind of matching will make it more likely that all the batteries will
+discharge at the same rate, putting less stress on any individual battery.
+ 
+-- When using single-cell rechargeable Ni-Cd batteries, be sure to
+discharge the cell completely before recharging it, thus counteracting the
+"memory" effect. 
+
+-- Secondary Ni-Cd batteries can sometimes be reconditioned to reduce the
+impact of "memory" effects. Completely discharge the battery and
+recharge it several times. 
+ 
+--  Do not use batteries in high-temperature situations (unless the battery is
+designed for that temperature range). Locate batteries as far away from
+heat sources as possible. The electrical potential of the battery will degrade
+rapidly if it is exposed to temperatures higher than those recommended by
+the manufacturer.
+
+-------------------------------   
+
+6. BATTERY CHARGERS AND ADAPTERS
+
+6.1. Battery Chargers
+Secondary (rechargeable) batteries require a battery charger to bring them
+back to full power. The charger will provide electricity to the electrodes
+(opposite to the direction of electron discharge), which will reverse the
+chemical process within the battery, converting the applied electrical
+energy into chemical potential energy.
+
+Batteries should only be recharged with chargers that are recommended,
+by the manufacturer, for that particular type of battery. In general,
+however, battery-industry standards ensure that any off-the-shelf battery
+charger, specified for one brand, size, and type of battery, will be able to
+charge correctly any brand of battery of that same size and type. 
+
+Do not, however, use a charger designed for one type of battery to charge
+a different type of battery, even if the sizes are the same. For example, do
+not use a charger designed for charging "D"-sized Ni-Cd batteries to
+charge "D"-sized rechargeable alkaline batteries. If in doubt, use only the
+exact charger recommended by the battery manufacturer. 
+
+Recharging a battery without a recommended charger is dangerous. If too
+much current is supplied, the battery may overheat, leak, or explode. If not
+enough current is applied, the battery may never become fully charged,
+since the self-discharge rate of the battery will nullify the charging effort.
+
+It is not recommended that battery users design and build their own
+charging units. Many low- cost chargers are available off-the-shelf that do
+a good job of recharging batteries. Specific, off- the-shelf chargers are
+identified and recommended, by each of the major battery manufacturers,
+for each type of secondary battery they produce.
+
+6.2. Charge Rates
+The current that a charger supplies to the battery is normally expressed as
+a fraction of the theoretical current (for a given battery) needed to charge
+the battery completely in 1 hour. This theoretical current is called the
+nominal battery capacity rating and is represented as "C." For example, a
+current of 0.1 C is that current which, in 10 hours, theoretically, would
+recharge the battery fully. Table 7 shows some common charging rates for
+various styles of recharging.
+
+-------------------------------
+
+Table 7. Charge Rate Descriptions
+
+Charge Rate (Amperes) Description
+Standby (Trickle): 0.01 C to 0.03 C
+Slow (Overnight): 0.05 C to 0.1 C
+Quick: 0.2 C to 0.5 C
+Fast: 1 C and more
+
+Nominal Charge Time (Hours) Description
+Standby (Trickle): 100 to 33
+Slow (Overnight): 20 to 10
+Quick: 5 to 2
+Fast: 1 and less
+
+"C" is the theoretical current needed to completely charge the fully
+discharged battery in one hour.
+
+-------------------------------       
+
+6.3. Charging Techniques
+In general, lower charge rates will extend the overall life of the battery. A
+battery can be damaged or degraded if too much current is applied during
+the charging process. Also, when a battery is in the final stages of
+charging, the current must be reduced to prevent damage to the battery.
+Many chargers offer current-limiting devices that will shut off or reduce
+the applied current when the battery reaches a certain percent of its
+charged potential. 
+
+Slow charge rates (between 0.05 C and 0.1 C) are the most-often
+recommended charge rate, since a battery can be recharged in less than a
+day, without significant probability of damaging or degrading the battery.
+Slow charge rates can be applied to a battery for an indefinite period of
+time, meaning that the battery can be connected to the charger for days or
+weeks with no need for special shut-off or current-limiting equipment on
+the charger. 
+
+Trickle chargers (charge rates lower than 0.05 C) are generally insufficient
+to charge a battery. They are usually only applied after a battery is fully
+charged (using a greater charge rate) to help offset the self-discharge rate
+of the battery. Batteries on a trickle charger will maintain their full charge
+for months at a time. It is usually recommended that batteries on a trickle
+charger be fully discharged and recharged once every 6 to 12 months.
+
+Quick and fast charging rates (over 0.2 C) can be used to charge many
+kinds of secondary batteries. In such cases, however, damage or
+deterioration can occur in the battery if these high charge rates are applied
+after the battery has approximately 85% of its charge restored. Many quick
+and fast chargers will have current-limiters built into them that will slowly
+reduce the current as the battery is charged, thereby preventing most of
+this deterioration. 
+
+The recharge times shown in Table 7 may be somewhat lower than the
+actual times required to recharge batteries at the associated charge rates.
+Various elements, such as temperature, humidity, initial charge state, and
+the recharge history of the cell, will each act to extend the time needed to
+charge the cell fully.
+
+6.4. Charging Lead-Acid Batteries
+Constant potential charging, with current limiting, is usually
+recommended for sealed lead-acid cells. Due to the sloping voltage profile
+of a lead-acid battery, the voltage of the battery is a reliable indicator of its
+state of charge. Current limiting may be accomplished through the use of a
+current-limiting resistor. One manufacturer uses a miniature light bulb as a
+current-limiting resistor. The brightness of the bulb will provide a visual
+indication of the state of charge of the battery. In modern practice,
+however, current limiting is accomplished with integrated circuits.
+
+6.5. Charging Ni-Cd Batteries
+During their recharge cycle, nickel-cadmium batteries react in a manner
+different from other batteries. Nickel-cadmium batteries will actually
+absorb heat during the first 25% of the charge cycle (as opposed to most
+secondary batteries, which generate heat all through their recharge cycle).
+Beyond that first quarter of the charge cycle, a Ni-Cd battery will generate
+heat. If constant current is applied past the point when the battery reaches
+approximately 85% of its fully charged state, the excess heat will cause
+"thermal runaway" to occur. Under thermal runaway conditions, the excess
+heat in the battery will cause its voltage to drop. The drop in voltage will
+cause the charge rate to increase (according to Ohm's Law), generating
+more heat and accelerating the cycle. The temperature and internal
+pressure of the battery will continue to rise until permanent damage
+results.
+
+When using trickle or slow chargers to charge Ni-Cd batteries, the heat
+build-up is minimal and is normally dissipated by atmospheric convection
+before thermal runaway can occur. Most chargers supplied with, or as a
+part of, rechargeable devices (sealed flashlights, mini-vacuums, etc.) are
+slow chargers.
+
+Quick or fast battery chargers, designed especially for Ni-Cd batteries, will
+usually have a temperature sensor or a voltage sensor that can detect when
+the battery is nearing thermal- runaway conditions. When near-runaway
+conditions are indicated, the charger will reduce or shut off the current
+entering the battery.
+
+6.6. Timed-Charge Charging
+Most charging methods, described so far in this guide, allow the user to
+begin charging a cell regardless of its current state of charge. One
+additional method can be used to charge Ni-Cd cells, but only if the cell is
+completely discharged. It is called the timed-charged method. 
+One characteristic of Ni-Cd cells is that they can accept very large charge
+rates (as high as 20 C), provided that the cell is not forced into an
+overcharge condition. 
+
+The timed-charge charger will provide high-rate current to the cell for a
+very specific period. A timer will then cut off the charging current at the
+end of that period. Some cells can be charged completely in as little as 10
+minutes (as opposed to 8 hours on a slow charger). 
+
+Great care should be exercised when using a timed-charge charger,
+because there is no room for error. If the cell has any charge in it at all at
+the beginning of the charge cycle, or if the cell's capacity is less than
+anticipated, the cell can quickly reach the fully charged state, proceed into
+thermal-runaway conditions, and cause the explosion or destruction of the
+cell. 
+
+Some timed-charge chargers have a special circuit designed to discharge
+the cell completely before charging it. These are called dumped
+timed-charge chargers, since they dump any remaining charge before
+applying the timed charge.
+
+6.7. Pulsed Charge-Discharge Chargers
+This method of charging Ni-Cd cells applies a relatively high charge rate
+(approximately 5 C) until the cell reaches a voltage of 1.5 V. The charging
+current is then removed and the cell is rapidly discharged for a brief period
+of time (usually a few seconds). This action depolarizes the cell
+components and dissipates any gaseous buildup within the cell. The cell is
+then rapidly charged back to 1.5 V. The process is repeated several more
+times until the cell's maximum charge state is reached.
+
+Unfortunately, this method has some difficulties. The greatest difficulty is
+that the maximum voltage of a Ni-Cd cell will vary with several outside
+factors such as the cell's recharge history and the ambient temperature at
+the charger's location. Since the cell's maximum potential voltage is
+variable, the level to which it must be charged is also variable. Integrated
+circuits are being designed, however, that may compensate for such
+variations. 
+
+6.8. Charging Button Batteries
+Secondary cylindrical (household) cells will usually have a safety seal or
+vent built into them to allow excess gases, created during the charging
+process, to escape. Secondary, button-type batteries do not have such seals
+and are often hermetically sealed. 
+
+When cylindrical cells are overcharged, excess gases are vented. If a
+button battery is inadvertently overcharged, the excess gases cannot
+escape. The pressure will build up and will damage the battery or cause an
+explosion. Care should be taken not to overcharge a secondary button
+battery.
+
+6.9. Internal Chargers
+For some applications, the charger may be provided, by the battery
+manufacturer, as an integral part of the battery itself. This design has the
+obvious advantage of ensuring that the correct charger is used to charge
+the battery, but this battery-charger combination may result in size, weight
+and cost penalties for the battery.
+
+6.10. Battery Testers
+A battery tester is a device that contains a small load and attaches across
+the terminals of a battery to allow the user to see if the battery is
+sufficiently charged. A simple battery tester can be made from a flashlight
+bulb and two pieces of wire. Flashlight bulbs are ideal for testing
+household batteries, since the voltage and current required to light the bulb
+is the same as that of the battery. This kind of flashlight-bulb tester can
+also be used to drain a secondary battery safely before fully charging it.
+
+Some off-the-shelf household batteries are sold with their own testers.
+These testers are attached to the packaging material or to the battery itself.
+The active conductor in the tester is covered by a layer of heat-sensitive
+ink. As the ends of the tester are pressed against the battery terminals, a
+small amount of current will flow through the material under the ink,
+heating it. The heating will cause the ink to change color, indicating that
+the battery still has energy. 
+
+Using a simple battery tester to test a Ni-Cd battery can be somewhat
+misleading, since a Ni-Cd battery has a flat voltage profile. The tester will
+indicate near-maximum voltage whether the battery is 100% charged or
+85% discharged.
+
+6.11. "Smart" Batteries
+Many battery-powered devices require the use of multi-cell battery packs
+(i.e., several ordinary battery cells strapped together to be used as a single
+unit). The individual cells cannot be charged or measured separately,
+without destroying the battery pack. 
+
+A new development in rechargeable battery technology is the use of
+microelectronics in battery- pack cases to create "intelligent" battery
+packs. These "smart" battery packs contain a microprocessor, memory,
+and sensors that monitor the battery's temperature, voltage, and current.
+This information can be relayed to the device (if the device is designed to
+accept the information) and used to calculate the battery's state of charge at
+any time or to predict how much longer the device can operate. The
+microprocessor on a battery pack may also record the history of the battery
+and display the dates and number of times that it has been charged. 
+
+To get the maximum potential from a secondary battery, the user must
+adopt a strict regimen of noting certain information about the battery and
+acting upon that information. For example, if a battery is already partially
+discharged, using it in a device will obviously not allow the device to be
+used for its entire duty cycle. Attempting to charge a battery when the
+ambient temperature is too high is another example of suboptimal battery
+usage, since the battery will not hold as much charge as it would have had
+it been charged at the recommended temperature. 
+
+Most battery users are not sufficiently diligent in matters of battery
+maintenance. "Smart" batteries allow the battery itself to record all
+pertinent information and make it available to the user at a glance.
+
+6.12. End of Life
+All secondary batteries will eventually fail due to age, expended
+components, or physical damage. A battery, when properly maintained,
+will fail through gradual loss of capacity. To the user, this gradual failure
+will appear as a frequent need to change and charge the batteries. Sudden
+failure, usually due to physical abuse, will prevent the battery from
+holding any charge at all.
+
+The physical manifestations of a gradual failure of the battery can be seen
+as a degradation of the separator material, dendritic growth or other
+misshappening of the electrodes, and permanent material loss of the active
+components.
+
+The physical manifestations of a sudden failure, can be seen as the
+destruction of the battery components. Open-circuit failure can be induced
+by an applied shock to or excess vibration of the battery. As a result, the
+internal components of the battery may become loose or detached, causing
+a gap in the electrical circuit.
+
+Short-circuit failure can be caused by an applied shock. It can also be
+caused by overheating or overcharging the battery. In a short-circuit
+failure, some part of one of the electrodes pierces (caused by shock) or
+grows through (caused by overcharging) the separator material in the
+electrolyte. This piercing effect will cause the electrical path to be shorted. 
+
+If a battery and its replacements seem to be suffering repeated premature
+failures, in reoccurring and similar circumstances, the failed batteries
+should be sent to a laboratory for dissection and analysis. The problem
+may lie in faulty equipment, inappropriate battery usage, or in physical
+abuse to the device and its batteries. Resolution of the problem will save
+time and money in future battery designs and applications.
+
+6.13. Battery Adapters
+A battery adapter is a device that can be used instead of a battery to
+provide current to a battery- powered device.
+
+Most battery adapters will convert 60 Hz, 
+110 V, alternating current (i.e., typical house current) into direct current
+(dc) for use by battery- powered devices. Other adapters are designed to be
+powered by 12 V automobile batteries, usually by insertion of a plug into
+the automobile's cigarette lighter. 
+
+An adapter will usually have a dc-output plug that is inserted into the
+battery-powered device to provide dc current to the device.
+
+Usually, manufacturers of the more expensive battery-powered devices
+(e.g., cellular phones, laptop computers) will provide the customer with a
+battery adapter designed especially for that device. The adapter will plug
+into a special connector in the device to provide it power. If designed to do
+so, the battery adapter will charge the device's batteries as well. 
+
+Other manufacturers make generic battery adapters. These adapters will
+have a battery-shaped appendage that plugs into a battery-powered device
+in place of a real battery and will provide energy equivalent to a real
+battery. While this kind of adapter has some advantages (it can be used for
+any battery powered device, it can be used when no charged batteries are
+available, etc.), those advantages are usually outweighed by the
+disadvantages (the power cord is inconvenient and negates the portability
+of the device, the battery cover cannot be replaced while the cord is
+attached, a multiple-battery device would require multiple adapters, etc.). 
+
+7. PRODUCTS AND SUPPLIERS
+
+-------------------------------
+
+Batteries and battery manufacturers and suppliers listed or mentioned in
+this section, and elsewhere in this guideline, are listed for the convenience
+of the reader. The name of a specific product or company does not imply
+that the product or company is, necessarily, the best for any particular
+application or device. The lists are, necessarily, not all-inclusive. The list
+of Web pages was compiled following a Web search performed in August,
+1997. New Web pages may have appeared since then and some which
+appear in this list may no longer be available. Other Web pages, that were
+not listed in the Web-search database at that time, will also not appear in
+this list.
+
+7.1. Battery Manufacturers
+The battery manufacturers listed below are some of the manufacturers of
+household batteries. They are presented in alphabetical order. All
+information was verified in August, 1997. 
+
+7.1.1.  Battery Engineering
+Postal Address:
+Battery Engineering, Inc.
+100 Energy Drive
+Canton, MA 02001
+Phone Number:
+(617) 575-0800
+Web Page:
+http://www.batteryeng.com
+Email Address:
+info@batteryeng.com
+
+7.1.2.  Duracell
+Postal Address:
+Duracell, Inc.
+Berkshire Corp Park
+Bethel, CT 06801
+Phone Number:
+1 (800) 551-2355
+Web Page:
+http://www.duracell.com/
+
+7.1.3.  Eveready
+Postal Address:
+Eveready Battery Company, Inc.
+Checkerboard Square
+St. Louis, MO 63164-0001
+Phone Number:
+1 (800) 383-7323
+Web Page:
+http://www.eveready.com/
+Email Address:
+bunny@chas.ts.maritz.com
+
+7.1.4.  Rayovac
+Postal Address:
+Rayovac Corporation
+P.O. Box 44960
+Madison, WI 53744-4960
+Phone Number:
+1 (800) 237-7000
+Web Page:
+http://www.rayovac.com/
+Email Address:
+customers@rayovac.com
+
+-------------------------------
+
+Table 8. Some On-Line Information Available via the World Wide Web 
+
+All Web information was verified in August, 1997.
+
+BATTERY MANUFACTURERS
+
+Battery Engineering
+http://www.batteryeng.com/
+
+Duracell Batteries
+http://www.duracell.com/
+
+Eveready Batteries
+http://www.eveready.com/
+
+Kodak Corporation
+http://www.kodak.com/
+
+NEXcell
+http://www.battery.com.tw/
+
+Panasonic Batteries
+http://www.panasonic-batteries.be/home.html
+
+PolyStor Corporation
+http://www.polystor.com/
+
+Radio Shack
+http://www.radioshack.com/
+
+Rayovac Batteries
+http://www.rayovac.com/
+
+Sony Corporation
+http://www.sel.sony.com/SEL/rmeg/batteries/
+
+BATTERY DISTRIBUTORS
+
+Battery-Biz, Inc.
+http://www.battery-biz.com/battery-biz/
+
+Battery Depot
+http://www.battery-depot.com/
+
+Battery Network
+http://batnetwest.com/
+
+Batteries Plus
+http://www.spromo.com/battplus/
+
+E-Battery
+http://e-battery.com/
+
+Powerline
+http://www.powerline-battery.com/
+
+-------------------------------
+
+8. A GLOSSARY OF BATTERY TERMS
+
+Ampere-Hour -- One ampere-hour is equal to a current of one ampere
+flowing for one hour. A unit-quantity of electricity used as a measure of
+the amount of electrical charge that may be obtained from a storage battery
+before it requires recharging. 
+
+Ampere-Hour Capacity -- The number of ampere-hours which can be
+delivered by a storage battery on a single discharge. The ampere-hour
+capacity of a battery on discharge is determined by a number of factors, of
+which the following are the most important: final limiting voltage;
+quantity of electrolyte; discharge rate; density of electrolyte; design of
+separators; temperature, age, and life history of the battery; and number,
+design, and dimensions of electrodes. 
+
+Anode -- In a primary or secondary cell, the metal electrode that gives up
+electrons to the load circuit and dissolves into the electrolyte.
+
+Aqueous Batteries -- Batteries with water-based electrolytes. 
+
+Available Capacity -- The total battery capacity, usually expressed in
+ampere-hours or milliampere-hours, available to perform work. This
+depends on factors such as the endpoint voltage, quantity and density of
+electrolyte, temperature, discharge rate, age, and the life history of the
+battery.
+
+Battery -- A device that transforms chemical energy into electric energy.
+The term is usually applied to a group of two or more electric cells
+connected together electrically. In common usage, the term "battery" is
+also applied to a single cell, such as a household battery. 
+
+Battery Types -- There are, in general, two type of batteries: primary
+batteries, and secondary storage or accumulator batteries. Primary types,
+although sometimes consisting of the same active materials as secondary
+types, are constructed so that only one continuous or intermittent discharge
+can be obtained. Secondary types are constructed so that they may be
+recharged, following a partial or complete discharge, by the flow of direct
+current through them in a direction opposite to the current flow on
+discharge. By recharging after discharge, a higher state of oxidation is
+created at the positive plate or electrode and a lower state at the negative
+plate, returning the plates to approximately their original charged
+condition. 
+
+Battery Capacity -- The electric output of a cell or battery on a service test
+delivered before the cell reaches a specified final electrical condition and
+may be expressed in ampere-hours, watt- hours, or similar units. The
+capacity in watt-hours is equal to the capacity in ampere-hours multiplied
+by the battery voltage.
+
+Battery Charger -- A device capable of supplying electrical energy to a
+battery. 
+
+Battery-Charging Rate -- The current expressed in amperes at which a
+storage battery is charged.
+
+Battery Voltage, final -- The prescribed lower-limit voltage at which
+battery discharge is considered complete. The cutoff or final voltage is
+usually chosen so that the useful capacity of the battery is realized. The
+cutoff voltage varies with the type of battery, the rate of discharge, the
+temperature, and the kind of service in which the battery is used. The term
+"cutoff voltage" is applied more particularly to primary batteries, and
+"final voltage" to storage batteries. Synonym: Voltage, cutoff.
+
+Ci -- The rated capacity, in ampere-hours, for a specific, constant
+discharge current (where i is the number of hours the cell can deliver this
+current). For example, the C5 capacity is the ampere- hours that can be
+delivered by a cell at constant current in 5 hours. As a cell's capacity is not
+the same at all rates, C5 is usually less than C20 for the same cell. 
+
+Capacity -- The quantity of electricity delivered by a battery under
+specified conditions, usually expressed in ampere-hours.
+
+Cathode -- In a primary or secondary cell, the electrode that, in effect,
+oxidizes the anode or absorbs the electrons.
+
+Cell -- An electrochemical device, composed of positive and negative
+plates, separator, and electrolyte, which is capable of storing electrical
+energy. When encased in a container and fitted with terminals, it is the
+basic "building block" of a battery. 
+
+Charge -- Applied to a storage battery, the conversion of electric energy
+into chemical energy within the cell or battery. This restoration of the
+active materials is accomplished by maintaining a unidirectional current in
+the cell or battery in the opposite direction to that during discharge; a cell
+or battery which is said to be charged is understood to be fully charged. 
+
+Charge Rate -- The current applied to a secondary cell to restore its
+capacity. This rate is commonly expressed as a multiple of the rated
+capacity of the cell. For example, the C/10 charge rate of a 500 Ah cell is
+expressed as, C/10 rate = 500 Ah / 10 h = 50 A. 
+
+Charge, state of -- Condition of a cell in terms of the capacity remaining in
+the cell. 
+
+Charging -- The process of supplying electrical energy for conversion to
+stored chemical energy. 
+
+Constant-Current Charge -- A charging process in which the current of a
+storage battery is maintained at a constant value. For some types of
+lead-acid batteries this may involve two rates called the starting and
+finishing rates.
+
+Constant-Voltage Charge -- A charging process in which the voltage of a
+storage battery at the terminals of the battery is held at a constant value.
+
+Cycle -- One sequence of charge and discharge. Deep cycling requires that
+all the energy to an end voltage established for each system be drained
+from the cell or battery on each discharge. In shallow cycling, the energy
+is partially drained on each discharge; i.e., the energy may be any value up
+to 50%.
+
+Cycle Life -- For secondary rechargeable cells or batteries, the total
+number of charge/discharge cycles the cell can sustain before it becomes
+inoperative. In practice, end of life is usually considered to be reached
+when the cell or battery delivers approximately 80% of rated ampere- hour
+capacity.
+
+Depth of Discharge -- The relative amount of energy withdrawn from a
+battery relative to how much could be withdrawn if the battery were
+discharged until exhausted.
+
+Discharge -- The conversion of the chemical energy of the battery into
+electric energy.
+
+Discharge, deep -- Withdrawal of all electrical energy to the end-point
+voltage before the cell or battery is recharged.
+
+Discharge, high-rate -- Withdrawal of large currents for short intervals of
+time, usually at a rate that would completely discharge a cell or battery in
+less than one hour.
+
+Discharge, low-rate -- Withdrawal of small currents for long periods of
+time, usually longer than one hour.
+
+Drain -- Withdrawal of current from a cell.
+
+Dry Cell -- A primary cell in which the electrolyte is absorbed in a porous
+medium, or is otherwise restrained from flowing. Common practice limits
+the term "dry cell" to the Leclanch‚ cell, which is the common commercial
+type.
+
+Electrochemical Couple -- The system of active materials within a cell that
+provides electrical energy storage through an electrochemical reaction.
+
+Electrode -- An electrical conductor through which an electric current
+enters or leaves a conducting medium, whether it be an electrolytic
+solution, solid, molten mass, gas, or vacuum. For electrolytic solutions,
+many solids, and molten masses, an electrode is an electrical conductor at
+the surface of which a change occurs from conduction by electrons to
+conduction by ions. For gases and vacuum, the electrodes merely serve to
+conduct electricity to and from the medium.
+
+Electrolyte -- A chemical compound which, when fused or dissolved in
+certain solvents, usually water, will conduct an electric current. All
+electrolytes in the fused state or in solution give rise to ions which conduct
+the electric current.
+
+Electropositivity -- The degree to which an element in a galvanic cell will
+function as the positive element of the cell. An element with a large
+electropositivity will oxidize faster than an element with a smaller
+electropositivity.
+
+End-of-Discharge Voltage -- The voltage of the battery at termination of a
+discharge.
+
+Energy -- Output capability; expressed as capacity times voltage, or
+watt-hours.
+
+Energy Density -- Ratio of cell energy to weight or volume (watt-hours per
+pound, or watt-hours per cubic inch).
+
+Float Charging -- Method of recharging in which a secondary cell is
+continuously connected to a constant-voltage supply that maintains the cell
+in fully charged condition.
+
+Galvanic Cell -- A combination of electrodes, separated by electrolyte, that
+is capable of producing electrical energy by electrochemical action.
+
+Gassing -- The evolution of gas from one or both of the electrodes in a
+cell. Gassing commonly results from self-discharge or from the
+electrolysis of water in the electrolyte during charging.
+
+Internal Resistance -- The resistance to the flow of an electric current
+within the cell or battery.
+
+Memory Effect -- A phenomenon in which a cell, operated in successive
+cycles to the same, but less than full, depth of discharge, temporarily loses
+the remainder of its capacity at normal voltage levels (usually applies only
+to Ni-Cd cells).
+
+Negative Terminal -- The terminal of a battery from which electrons flow
+in the external circuit when the cell discharges. See Positive Terminal.
+
+Nonaqueous Batteries -- Cells that do not contain water, such as those with
+molten salts or organic electrolytes.
+
+Ohm's Law -- The formula that describes the amount of current flowing
+through a circuit. Voltage = Current multiplied by Resistance.
+
+Open Circuit -- Condition of a battery which is neither on charge nor on
+discharge (i.e., disconnected from a circuit).
+
+Open-Circuit Voltage -- The difference in potential between the terminals
+of a cell when the circuit is open (i.e., a no-load condition).
+
+Oxidation -- A chemical reaction that results in the release of electrons by
+an electrode's active material.
+
+Parallel Connection -- The arrangement of cells in a battery made by
+connecting all positive terminals together and all negative terminals
+together, the voltage of the group being only that of one cell and the
+current drain through the battery being divided among the several cells.
+See Series Connection.
+
+Polarity -- Refers to the charges residing at the terminals of a battery.
+
+Positive Terminal -- The terminal of a battery toward which electrons flow
+through the external circuit when the cell discharges. See Negative
+Terminal.
+
+Primary Battery -- A battery made up of primary cells. See Primary Cell.
+
+Primary Cell -- A cell designed to produce electric current through an
+electrochemical reaction that is not efficiently reversible. Hence the cell,
+when discharged, cannot be efficiently recharged by an electric current.
+
+Note: When the available energy drops to zero, the cell is usually
+discarded. Primary cells may be further classified by the types of
+electrolyte used.
+
+Rated Capacity -- The number of ampere-hours a cell can deliver under
+specific conditions (rate of discharge, end voltage, temperature); usually
+the manufacturer's rating.
+
+Rechargeable -- Capable of being recharged; refers to secondary cells or
+batteries.
+
+Recombination -- State in which the gases normally formed within the
+battery cell during its operation, are recombined to form water.
+
+Reduction -- A chemical process that results in the acceptance of electrons
+by an electrode's active material.
+
+Seal -- The structural part of a galvanic cell that restricts the escape of
+solvent or electrolyte from the cell and limits the ingress of air into the cell
+(the air may dry out the electrolyte or interfere with the chemical
+reactions).
+
+Secondary Battery -- A battery made up of secondary cells. See Storage
+Battery; Storage Cell.
+
+Self Discharge -- Discharge that takes place while the battery is in an
+open-circuit condition.
+
+Separator -- The permeable membrane that allows the passage of ions, but
+prevents electrical contact between the anode and the cathode.
+
+Series Connection -- The arrangement of cells in a battery configured by
+connecting the positive terminal of each successive cell to the negative
+terminal of the next adjacent cell so that their voltages are cumulative. See
+Parallel Connection.
+
+Shelf Life -- For a dry cell, the period of time (measured from date of
+manufacture), at a storage temperature of 21 degrees C (69 degrees F),
+after which the cell retains a specified percentage (usually 90%) of its
+original energy content.
+
+Short-Circuit Current -- That current delivered when a cell is
+short-circuited (i.e., the positive and negative terminals are directly
+connected with a low-resistance conductor).
+
+Starting-Lighting-Ignition (SLI) Battery -- A battery designed to start
+internal combustion engines and to power the electrical systems in
+automobiles when the engine is not running. SLI batteries can be used in
+emergency lighting situations.
+
+Stationary Battery -- A secondary battery designed for use in a fixed
+location.
+
+Storage Battery -- An assembly of identical cells in which the
+electrochemical action is reversible so that the battery may be recharged
+by passing a current through the cells in the opposite direction to that of
+discharge. While many non-storage batteries have a reversible process,
+only those that are economically rechargeable are classified as storage
+batteries. Synonym: Accumulator; Secondary Battery. See Secondary Cell.
+
+Storage Cell -- An electrolytic cell for the generation of electric energy in
+which the cell after being discharged may be restored to a charged
+condition by an electric current flowing in a direction opposite the flow of
+current when the cell discharges. Synonym: Secondary Cell. See Storage
+Battery.
+
+Taper Charge -- A charge regime delivering moderately high-rate charging
+current when the battery is at a low state of charge and tapering the current
+to lower rates as the battery becomes more fully charged.
+
+Terminals -- The parts of a battery to which the external electric circuit is
+connected.
+
+Thermal Runaway -- A condition whereby a cell on charge or discharge
+will destroy itself through internal heat generation caused by high
+overcharge or high rate of discharge or other abusive conditions.
+
+Trickle Charging -- A method of recharging in which a secondary cell is
+either continuously or intermittently connected to a constant-current
+supply that maintains the cell in fully charged condition.
+
+Vent -- A normally sealed mechanism that allows for the controlled escape
+of gases from within a cell.
+
+Voltage, cutoff -- Voltage at the end of useful discharge. (See Voltage,
+end-point.)
+
+Voltage, end-point -- Cell voltage below which the connected equipment
+will not operate or below which operation is not recommended.
+
+Voltage, nominal -- Voltage of a fully charged cell when delivering rated
+current. 
+
+Wet Cell -- A cell, the electrolyte of which is in liquid form and free to
+flow and move.
+
+-------------------------------   
+
+9. BIBLIOGRAPHY
+
+American National Standard Specification for Dry Cells and Batteries,
+American National Standards Institutes, Inc. ANSI C18.1M-1992.
+
+Application Notes & Product Data Sheet: Primary Batteries--Alkaline,
+Heavy Duty & General Purpose, Rayovac Corporation, January 1996.
+
+Batteries Used with Law Enforcement Communications Equipment:
+Chargers and Charging Techniques, W.W. Scott, Jr., U.S. Department of
+Justice, LESP-RPT-0202.00, June 1973. 
+
+Batteries Used with Law Enforcement Communications Equipment:
+Comparison and Performance Characteristics, R.L. Jesch and I.S. Berry,
+U.S. Department of Justice, LESP-RPT- 0201.00, May 1972.
+
+Battery Engineering Web Site, http://www.batteryeng.com, August 1997. 
+
+Battery Selection & Care, Eveready Battery Corporation, 1995. 
+
+Camcorder Battery Pocket Guide, Eveready Battery Corporation, Inc.,
+1996. 
+
+Cellular Duracell Rechargeable Batteries, Duracell, 1996.
+
+Design Note: Renewal Reusable Alkaline Batteries Applications and
+System Design Issues For Portable Electronic Equipment, Rayovac
+Corporation, presented at: Portable by Design Conference, 1995.
+
+Duracell Batteries Web Site, http://www.duracell.com, August 1997. 
+
+Easy to Choose, Easy to Use, Eveready Battery Corporation, 1997. 
+
+Encyclopedia of Physical Science and Technology, Brooke Schumm, Jr.,
+1992. 
+
+Eveready and the Environment, Eveready Battery Company, Inc., 1995. 
+
+Eveready Batteries Web Site, http://www.eveready.com, August 1997. 
+
+Household Batteries and the Environment, Rayovac Corporation, 1995. 
+
+How to Choose, Use, Care For, and Dispose of Batteries, Electronics
+Industries Association Consumer Electronics Group, 1992.
+
+Land Mobile FM or PM Communications Equipment, Measurement and
+Performance Standard, Electronics Industry Association/
+Telecommunications Industry Association, Publication EIA/TIA 603,
+1993.
+
+Minimum Standards for Portable/Personal Land Mobile Communications
+FM or PM Equipment 25-470 MC, Electronics Industries Association,
+EIA/TIA-316-C-1989. 
+
+Navy Primary and Secondary Batteries. Design and Manufacturing
+Guidelines, NAVSO P-3676, September 1991.
+
+Panasonic Batteries Web Site,
+http://www.panasonic-batteries.be/home.html, August 1997. 
+
+PolyStor Web Page, http://www.polystor.com, August, 1997. 
+
+Rayovac Batteries Web Site, http://www.rayovac.com, August 1997. 
+
+Rechargeable Batteries for Personal/Portable Transceivers, National
+Institute of Justice, NIJ Standard-0211.01, September, 1995.
+
+Return of the Straight Dope, Cecil Adams, Chicago Reader, 11 East
+Illinois Street, Chicago, IL 60611, 1994.
+
+Supervisory ICs Empower Batteries to Take Charge, Bill Schweber, EDN,
+Cahners Publishing Company, 8773 South Ridgeline Blvd., Highlands
+Ranch, CO 80126-2329, September 1, 1997. 
+
+Telephony's Dictionary, second edition, April 1986. Graham Langley,
+Telephony Publishing Corp.
+
+The Eveready Battery Story, Eveready Battery Company, Inc., 1995. 
+
+The Story of Packaged Power, Duracell International, Inc., July, 1995. 
+
+Van Nostrand's Scientific Encyclopedia, Sixth Edition, Douglas M
+Considine, Editor, 1983. 
+
+What is a Battery?, Rayovac Corporation, 1995.
+
+Why Use Energizer AA Lithium Batteries?, Eveready Battery Company,
+Inc., 1993.
+
+------------------------------- 
+
+NOTES
+
+[1] Encyclopedia of Physical Science and Technology, Brooke Schumm,
+Jr., 1992.
+
+[2] The Story of Packaged Power, Duracell International, Inc., July, 1995.
+
+[3] Certain commercial companies, equipment, instruments, and materials
+are identified in this report to specify adequately the technical aspects of
+the reported results. In no case does such identification imply
+recommendation or endorsement by the National Institute of Justice, or
+any other U.S. Government department or agency, nor does it imply that
+the material or equipment identified is necessarily the best available for
+the purpose.
+
+[4] Household Batteries and the Environment, Rayovac Corporation, 1995.
+
+[5] The Story of Packaged Power, Duracell International, Inc., July, 1995.
+
+[6] Why Use Energizer AA Lithium Batteries?, Eveready Battery
+Company, Inc., 1993.
+
+[7] Battery Engineering Web Site, http://www.batteryeng.com/, August
+1997.
+
+[8] Navy Primary and Secondary Batteries. Design and Manufacturing
+Guidelines, NAVSO P-3676, September 1991.
+
+[9] Battery Engineering Web Site, http://www.batteryeng.com/, August
+1997.
+
+[10] PolyStor Web Page, http://www.polystor.com/, August, 1997.
+
+[11] Batteries Used with Law Enforcement Communications Equipment:
+Chargers and Charging Techniques, W. W. Scott, Jr., U.S. Department of
+Justice, LESP-RPT-0202.00, June 1973.
+
+[12] Eveready and the Environment, Eveready Battery Company, Inc.,
+1995.
+
+[13] Eveready and the Environment, Eveready Battery Company, Inc.,
+1995.
+
+[14] Eveready and the Environment, Eveready Battery Company, Inc.,
+1995. 
+
+[15] Land Mobile FM or PM Communications Equipment, Measurement
+and Performance Standard, Electronics Industry
+Association/Telecommunications Industry Association, Publication
+EIA/TIA 603, 1993.
+
+[16] Rechargeable Batteries for Personal/ Portable Transceivers, National
+Institute of Justice, NIJ Standard-0211.01, 1995.
+
+[17] Batteries Used with Law Enforcement Communications Equipment:
+Chargers and Charging Techniques, W.W. Scott, Jr., National Institute of
+Justice, LESP-RPT-0202.00, June 1973.
+
+[18] Easy to Choose, Easy to Use, Eveready Battery Corporation, 1997.
+
+[19] Cellular Duracell Rechargeable Batteries, Duracell, 1996.
+
+[20] Camcorder Battery Pocket Guide, Eveready Battery Company, 1996.
+
+------------------------------- 
+
+ABOUT THE LAW ENFORCEMENT AND CORRECTIONS
+STANDARDS AND TESTING PROGRAM
+
+The Law Enforcement and Corrections Standards and Testing Program is
+sponsored by the Office of Science and Technology of the National
+Institute of Justice (NIJ), U.S. Department of Justice. The program
+responds to the mandate of the Justice System Improvement Act of 1979,
+which created NIJ and directed it to encourage research and development
+to improve the criminal justice system and to disseminate the results to
+Federal, State, and local agencies.
+
+The Law Enforcement and Corrections Standards and Testing Program is
+an applied research effort that determines the technological needs of
+justice system agencies, sets minimum performance standards for specific
+devices, tests commercially available equipment against those standards,
+and disseminates the standards and the test results to criminal justice
+agencies nationally and internationally.
+
+The program operates through:
+
+The Law Enforcement and Corrections Technology Advisory Council
+(LECTAC) consisting of nationally recognized criminal justice
+practitioners from Federal, State, and local agencies, which assesses
+technological needs and sets priorities for research programs and items to
+be evaluated and tested.
+
+The Office of Law Enforcement Standards (OLES) at the National
+Institute of Standards and Technology, which develops voluntary national
+performance standards for compliance testing to ensure that individual
+items of equipment are suitable for use by criminal justice agencies. The
+standards are based upon laboratory testing and evaluation of
+representative samples of each item of equipment to determine the key
+attributes, develop test methods, and establish minimum performance
+requirements for each essential attribute. In addition to the highly technical
+standards, OLES also produces technical reports and user guidelines that
+explain in nontechnical terms the capabilities of available equipment.
+
+The National Law Enforcement and Corrections Technology Center
+(NLECTC), operated by a grantee, which supervises a national compliance
+testing program conducted by independent laboratories. The standards
+developed by OLES serve as performance benchmarks against which
+commercial equipment is measured. The facilities, personnel, and testing
+capabilities of the independent laboratories are evaluated by OLES prior to
+testing each item of equipment, and OLES helps the NLECTC staff review
+and analyze data. Test results are published in Equipment Performance
+Reports designed to help justice system procurement officials make
+informed purchasing decisions.
+
+Publications are available at no charge from the National Law
+Enforcement and Corrections Technology Center. Some documents are
+also available online through the Internet/World Wide Web. To request a
+document or additional information, call 800-248-2742 or 301-519-5060,
+or write: 
+
+National Law Enforcement and Corrections Technology Center
+P.O. Box 1160
+Rockville, MD 20849-1160
+
+E-mail: asknlectc@nlectc.org
+World Wide Web address: http://www.nlectc.org
+
+-------------------------------       
+
+The National Institute of Justice is a component of the Office of Justice
+Programs, which also includes the Bureau of Justice Assistance, Bureau of
+Justice Statistics, Office of Juvenile Justice and Delinquency Prevention,
+and the Office for Victims of Crime.
